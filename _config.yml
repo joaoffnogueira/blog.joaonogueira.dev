@@ -15,7 +15,7 @@ timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: JOÃO F. F. NOGUEIRA                          # the main title
+title: João F. F. Nogueira                          # the main title
 
 tagline: Mobile developer - Java, Kotlin and Flutter   # it will display as the sub-title
 
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: JOÃO F. F. NOGUEIRA
+  name: João F. F. Nogueira
   email: contact@joaonogueira.dev             # change to your email address
   links:
     # The first element serves as the copyright owner's link
