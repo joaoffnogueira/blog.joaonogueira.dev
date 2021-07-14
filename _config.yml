@@ -28,23 +28,23 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://joaoffnogueira.github.io/'
 
 github:
-  username: github_username             # change to your github username
+  username: joaoffnogueira             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: joaoffnogueira            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: JOÃO F. F. NOGUEIRA
+  email: contact@joaonogueira.dev             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/joaoffnogueira/      # change to your twitter homepage
+    - https://github.com/joaoffnogueira/       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/joãoffnogueira/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
@@ -67,7 +67,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:   dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
