@@ -8,6 +8,8 @@ toc: false
 ---
 
 Usually, the problem is that “Android APK Support” plugin is disable and enabling it should resolve the problem.  
+   ![android-studio-print](/posts/2021-06-11-01.png){: width="400" height="398" }
+_Android Studio wizard print, with "Create New Flutter Project" option highlighted._
 
 Try this:
 
@@ -20,7 +22,3 @@ Try this:
 4. Restart Android Studio.
 
 If still is not there, remove and reinstall Dart and Flutter plugins.
-
-   ![gh-pages-sources](/posts/2021-06-11-01.png){: width="400" height="398" }
-_This is how should look like_
-
