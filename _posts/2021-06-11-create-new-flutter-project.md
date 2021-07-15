@@ -4,6 +4,7 @@ author: João F. F. Nogueira
 date: 2021-06-11 11:14:00 -0300
 categories: [English, Troubleshoot]
 tags: [android, flutter]
+toc: false
 ---
 
 ## Naming and Path
