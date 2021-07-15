@@ -1,5 +1,5 @@
 ---
-title: "Create New Flutter Project" is not showing on Android Studio wizard
+title: Create New Flutter Project is not showing on Android Studio wizard
 author: João F. F. Nogueira
 date: 2021-06-11 11:14:00 -0300
 categories: [English, Troubleshoot]
