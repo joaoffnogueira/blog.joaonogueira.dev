@@ -7,18 +7,19 @@ tags: [android, flutter]
 toc: false
 ---
 
-Usually, the problem is that “Android APK Support” plugin is disable and enabling it should resolve the problem.  
+Usually, the problem is that `Android APK Support` plugin is disable and enabling it should resolve the problem.
+
    ![android-studio-print](/posts/2021-06-11-01.png){: width="400" height="398" }
 _Android Studio wizard print, with "Create New Flutter Project" option highlighted._
 
 Try this:
 
-1. On Configure -> Plugins check if:
+1. On `Configure -> Plugins` check if:
 
-2. Dart and Flutter plugins are checked as enabled.
+   a. `Dart` and `Flutter` plugins are checked as enabled.
 
-3. “Android APK Support” is checked as enabled.
+   b. `Android APK Support` is checked as enabled.
 
-4. Restart Android Studio.
+2. Restart Android Studio.
 
-If still is not there, remove and reinstall Dart and Flutter plugins.
+If still is not there, remove and reinstall `Dart` and `Flutter` plugins.
