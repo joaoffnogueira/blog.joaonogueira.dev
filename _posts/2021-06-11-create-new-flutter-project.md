@@ -7,6 +7,22 @@ tags: [android, flutter]
 toc: false
 ---
 
+![Android Studio wizard print, with "Create New Flutter Project" option highlighted.](/posts/2021-06-11-01.png)
+_This is how should look like_
+
+Usually, the problem is that “Android APK Support” plugin is disable and enabling it should resolve the problem.  
+
+Try this:  
+
+1. On Configure -> Plugins check if:
+
+2. Dart and Flutter plugins are checked as enabled.
+
+3. “Android APK Support” is checked as enabled.
+
+4. Restart Android Studio.
+
+If still is not there, remove and reinstall Dart and Flutter plugins.
 ## Naming and Path
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION` and put it in the `_posts/` of the root directory. Please note that the `EXTENSION` must be one of `md` and `markdown`.
