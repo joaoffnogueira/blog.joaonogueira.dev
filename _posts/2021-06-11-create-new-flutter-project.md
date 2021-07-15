@@ -7,13 +7,11 @@ tags: [android, flutter]
 toc: false
 ---
 
-## test
-![Android Studio wizard print, with "Create New Flutter Project" option highlighted.](/posts/2021-06-11-01.png)
 _This is how should look like_
 
 Usually, the problem is that “Android APK Support” plugin is disable and enabling it should resolve the problem.  
 
-Try this:  
+Try this:
 
 1. On Configure -> Plugins check if:
 
