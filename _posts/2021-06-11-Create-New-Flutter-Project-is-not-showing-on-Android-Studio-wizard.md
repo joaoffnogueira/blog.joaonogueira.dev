@@ -2,8 +2,7 @@
 title: "Create New Flutter Project" is not showing on Android Studio wizard
 date: 2021-06-11 11:14:00 -0300
 categories: [English, Troubleshoot]
-tags: [Android, Flutter]
-
+tags: [android, flutter]
 ---
 
 ![Android Studio wizard print, with "Create New Flutter Project" option highlighted.](/posts/2021-06-11-01.png)
