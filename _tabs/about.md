@@ -16,4 +16,4 @@ I am open to work as a junior developer to grow in the area, especially if I can
 
 Education:
 
-Systems Analysis and Development (2020-2021) - Software Engineering (2019) - Master on Environmental Education (2016-2017) - Biology (2012-2015)
+Systems Analysis and Development (2020-2021) - Software Engineering (2019) - Master of Environmental Education (2016-2017) - Biology (2012-2015)
