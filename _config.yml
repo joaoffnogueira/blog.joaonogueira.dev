@@ -15,7 +15,7 @@ timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: João F. F. Nogueira                          # the main title
+title: Blog - João F. F. Nogueira                          # the main title
 
 tagline: Mobile developer - Java, Kotlin and Flutter   # it will display as the sub-title
 
