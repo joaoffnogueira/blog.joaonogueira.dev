@@ -12,7 +12,7 @@ I have academic experience in technical research and extension projects, which h
 
 I also have teaching experience with elementary, high school and university students. I am always willing to learn new technologies from both front-end and back-end. My current knowledge includes a bit of web, and C.
 
-I am open to working as a junior developer to grow in the area, especially if I can combine my experience in education with technology.
+I am open to work as a junior developer to grow in the area, especially if I can combine my experience in education with technology.
 
 Education:
 
