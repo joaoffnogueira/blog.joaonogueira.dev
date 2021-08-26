@@ -23,7 +23,7 @@ description: >-                        # used by seo meta and the atom feed
   Mobile developer blog - Java, Kotlin and Flutter
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://joaoffnogueira.github.io/'
+url: 'https://blog.joaoffnogueira.dev/'
 
 github:
   username: joaoffnogueira             # change to your github username
