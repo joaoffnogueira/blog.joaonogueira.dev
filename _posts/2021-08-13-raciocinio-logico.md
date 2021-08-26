@@ -303,4 +303,5 @@ Dizemos que duas ou mais proposições são inconsistentes quando elas não pode
 
 ## Capítulo 10 - Circuitos lógicos
 
-   ![Circuitos lógicos](/posts/2021-08-13.png){: width="400" }
+   ![Circuitos lógicos](/posts/2021-08-13.png)
+   
