@@ -302,3 +302,5 @@ Dizemos que duas ou mais proposições são inconsistentes quando elas não pode
 ## Capítulo 9 - Lógica quantitativa e aplicações da lógica matemática
 
 ## Capítulo 10 - Circuitos lógicos
+
+   ![Circuitos lógicos](/posts/2021-08-13.png)
