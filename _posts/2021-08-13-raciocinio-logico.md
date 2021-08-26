@@ -1,10 +1,11 @@
 ---
 title: Anotações sobre Raciocínio lógico e lógica quantitativa
 author: João F. F. Nogueira
-date: 2021-08-06 11:15:00 -0300
-categories: [Português, Solução de problemas]
-tags: [web, css]
-toc: false
+date: 2021-08-13 11:15:00 -0300
+categories: [Português, Estudos]
+tags: [logic]
+toc: true
+math: true
 ---
 
 Se você tem uma barra de navegação na sua página marcada como `position: fixed;` no topo da tela, e você adiciona links internos para rolar a mesma página, você pode acabar com uma situação em que a barra de navegação sobrepõe o conteúdo da página. 
