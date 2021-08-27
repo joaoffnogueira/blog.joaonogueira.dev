@@ -94,6 +94,7 @@ graph LR
 O ambiente de negócios
 
 Tipos de sistemas de informação empresariais: Sistemas de processamento de transações (SPTs); Sistemas de inteligência empresarial (BI); Sistemas de informação gerenciais (SIG); Sistemas de apoio à decisão (SADs); sistemas de apoio ao executivo (SAE); sistemas integrativos (ERP); sistemas de gestão da cadeia de suprimentos (SCM); sistemas de gestão do relacionamento com o cliente (CRM); sistemas de gestão do conhecimento (SGCs).
+
    ![Matriz de ferramenta social e de colaboração tempo/espaço](/posts/2021-01-01-1.png){: width="100" height="100" }
 
 Programadores: especialistas técnicos altamente treinados que elaboram as instruções dos softwares de computadores.
@@ -101,6 +102,7 @@ Programadores: especialistas técnicos altamente treinados que elaboram as instr
 Analistas de sistemas: sua tarefa é traduzir os problemas e as necessidades da empresa em requisitos de informações e sistemas.
 
 ### Capítulo 3 - Conquistando vantagem competitiva com os sistemas de informação
+
    ![Modelo das forças competitivas de Porter. Concorrentes tradicionais e Novos entrantes.](/posts/2021-01-01-2.png){: width="100" height="100" }
 
 Estratégias de sistemas de informação para lidar com as forças competitivas:
@@ -124,6 +126,7 @@ Estratégias de sistemas de informação para lidar com as forças competitivas:
 | Posicionamento e rivalidade entre os concorrentes existentes | Amplia a abrangência geográfica do mercado, aumenta o número de concorrentes e reduz as diferenças entre eles, tornando mais difícil manter as vantagens operacionais, aumentando a competição por preço. |
 
 Impacto da Internet nas forças competitivas e na estrutura do setor.
+
    ![Modelo de cadeira de valores](/posts/2021-01-01-3.png){: width="100" height="100" }
 
 Benchmarking: processo de comparar a eficiência e efetividade dos próprios processos de negócios com determinados padrões.
@@ -217,6 +220,7 @@ Principais tecnologias de rede digital: computação cliente-servidor; comutaç�
 O termo segurança abarca as políticas, os procedimentos e as medidas técnicas usadas para impedir acesso não autorizado, alteração, roubo ou danos físicos a sistemas de informação.
 
 Os controles, por sua vez, consistem em todos os métodos, as políticas e os procedimentos organizacionais que garantem a segurança dos ativos da organização, a precisão e a confiabilidade de seus registros contábeis e a aderência operacional aos padrões administrativos.
+
    ![Vulnerabilidades e desafios de segurança contemporâneos](/posts/2021-01-01-4.png){: width="100" height="100" }
 
 Hackers e crimes de informática: spoofing (disfarce); sniffing (farejador); ataque de recusa de serviço (DoS); ataque distribuído de recusa de serviço (DDoS); roubo de identidade; phishing; pharming; fraude do clique.
@@ -238,6 +242,7 @@ Downtime refere-se a períodos em que um sistema não está operante.
 Software integrado baseia-se em uma suíte de módulos de software integrados e um banco de dados comum central que coleta e fornece dados para diversas aplicações que podem suportar quase todas as atividades de negócios internas da empresa. Quando novas informações são fornecidas por um processo, elas são disponibilizadas imediatamente para outros processos de negócio. Sistemas integrados ajudam na centralização organizacional, pois aplicam processos de negócios e padrões de dados uniformizados em toda a empresa, além de utilizar uma única plataforma tecnológica. Válidos para toda a empresa, os dados gerados pelos sistemas integrados ajudam os gestores a avaliar o desempenho organizacional.
 
 Os sistemas de gestão da cadeia de suprimentos automatizam o fluxo de informações entre os membros da cadeia de suprimentos; com isso, esses membros podem usar essas informações para tomar decisões mais acertadas sobre quando e quanto comprar, produzir ou expedir. As informações mais precisas proporcionadas pelos sistemas de gestão da cadeia de suprimentos reduzem a incerteza e o impacto do efeito chicote. Os softwares de gestão de cadeia de suprimentos dividem-se em software de planejamento e software de execução da cadeia de suprimentos. A tecnologia da Internet facilita a gestão de cadeias de suprimentos globais, pois permite que organizações de diferentes países se conectem e compartilhem informações. A melhor comunicação entre os membros da cadeia também facilita a resposta eficiente ao cliente e a transição para um modelo orientado pela demanda.
+
    ![Modelos de cadeia de suprimentos push e pull](/posts/2021-01-01-5.png){: width="100" height="100" }
 
 Sistemas de gestão do relacionamento com o cliente (CRM) integram e automatizam muitos processos voltados ao cliente nas áreas de vendas, marketing e atendimento, proporcionando uma visão válida para toda a empresa. As organizações podem usar esse conhecimento sobre o cliente quando interagem com ele para oferecer melhores serviços ou vender novos produtos e serviços. Esses sistemas também identificam clientes lucrativos ou não lucrativos, bem como oportunidades para reduzir a taxa de cancelamento (churn rate). Os principais pacotes de software de gestão do relacionamento com o cliente oferecem recursos tanto para o CRM operacional quanto para o CRM analítico. Muitas vezes, incluem módulos para gerenciar o relacionamento com parceiros de venda (gestão do relacionamento com parceiro) e para a gestão de relacionamento com o funcionário.
