@@ -3,7 +3,7 @@ title: Anotações sobre Git - GitHub
 author: João F. F. Nogueira
 date: 2021-08-27 11:15:00 -0300
 categories: [Português, Estudos]
-tags: [git]
+tags: [vcs]
 toc: true
 mermaid: true
 ---
