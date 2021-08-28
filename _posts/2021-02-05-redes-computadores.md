@@ -218,7 +218,8 @@ Os protocolos de roteamento utilizados na rede interna de da organização são 
 ## Internetworking no TCP/IP e no ISO/OSI
 
 No modelo TCP/IP a camada de Rede combina as camadas de enlace de dados (link) e a física do modelo ISO/OSI (camadas 1 e 2) para que haja independência da infraestrutura de rede. A camada superior – camada 2 ou inter-rede, equivalente à camada de rede (camada 3) do modelo ISO/OSI, trata do roteamento ou encaminhamento de pacotes entre os nós das redes.
-   ![Conversão entre sistemas](/posts/2021-02-05-1.png){: width="100" height="100" }
+
+   ![OSI-TCP/IP](/posts/2021-02-05-1.png){: width="100" height="100" }
 
 No modelo TCP/IP as camadas de Aplicação, Apresentação e Sessão - camadas 7, 6 e 5 do modelo ISO/OSI - são combinadas e formam a camada de aplicação. Nesta camada estão presentes os seguintes protocolos ou serviços, entre outros:
 
@@ -239,7 +240,8 @@ No modelo TCP/IP as camadas de Aplicação, Apresentação e Sessão - camadas 7
 · Telnet – Terminal Link over Network ou Terminal Virtual da Rede.
 
 As camadas de Enlace e Física – camadas 2 e 1 do modelo ISO/OSI são unificadas na camada de Rede – camada 1 do TCP/IP. Como já visto, isto se deve à necessidade de preservar, no TCP/IP, a independência da rede.
-   ![Conversão entre sistemas](/posts/2021-02-05-2.png){: width="100" height="100" }
+
+   ![Internetworking no TCP/IP e no ISO/OSI](/posts/2021-02-05-2.png){: width="100" height="100" }
 
 Na camada 2 do TCP/IP – camada inter-redes, são definidos os protocolos responsáveis por tratar da comunicação entre as redes, a saber:
 
@@ -252,12 +254,14 @@ Na camada 2 do TCP/IP – camada inter-redes, são definidos os protocolos respo
 · ICMP - O Internet Control Message Protocol ou Protocolo Internet de Controle de Mensagem permite informar os erros ocorridos no processo de comunicação entre hosts. O protocolo IP não trata os erros, mas os informa às camadas subjacentes que podem tratar, registrar ou comunicar os erros. Os switches e os routers utilizam o ICMP para assinalar erros (delivery problem). Um exemplo do uso do ICMP é o comando ping, que faz uso de mensagens ICMP. O comando solicita um “eco” para um host destino. Se o host destino devolver o pacote enviado à origem, então pode ser alcançado pela comunicação.
 
 · IGMP - Internet Group Management Protocol serve para controlar os membros de um grupo de multicast controlando a entrada e a saída dos hosts deste grupo. Desta forma o protocolo otimiza os recursos de uma rede, pois os roteadores só enviam multicast para os hosts de um determinado grupo. Multicast é a transmissão de áudio e/ou vídeo de um host para um grupo ou conjunto de outros hosts previamente conhecidos. Como exemplos de uso de multicast estão os jogos em rede, as videoconferências e a distribuição de vídeo pela rede no formado de Video on Demand - VOD e IP Television – IPTV.
-   ![Conversão entre sistemas](/posts/2021-02-05-3.png){: width="100" height="100" }
+
+   ![Internetworking no TCP/IP e no ISO/OSI](/posts/2021-02-05-3.png){: width="100" height="100" }
 
 Endereçamento IP: Todo host conectado à uma rede TCP/IP requer uma identificação exclusiva e universal perante a rede, de forma que os pacotes endereçados a ele cheguem somente até ele. Para esta identificação o host é designado por um endereço IP. O endereço é um número binário de 32 bits, que pode endereçar até 4.294.967.296 hosts. Este número, o endereço, pode ser representado em binário ou em decimal pontuado, que é a notação mais comum e mais fácil de entender e memorizar.A notação decimal é resultado da transformação de cada conjunto de oito bits (octetos ou bytes) em um número decimal, que pode variar de 0 a 255, representando um intervalo de 256 valores (28). Os endereços IPv4 contém 32 bits e são divididos em endereço da rede e endereço do host. As máscaras de subrede ou simplesmente Mask são conjuntos de bits que mostram onde o endereço de rede termina e o onde o endereço de host começa. Para isto são utilizados os bits 1 para as posições do endereço que representam a rede e os bits 0 para as posições reservadas ao endereço dos hosts da rede.
 
 Classes: O endereço é composto de identificação da rede (endereço da rede ou NetID) e identificação do host (endereço do host ou HostID). A organização de NetID e de HostID define a classe de endereço, e a máscara de rede ajuda a identificar o NetID e o HostID, como mostrado a seguir:
-   ![Conversão entre sistemas](/posts/2021-02-05-4.png){: width="100" height="100" }
+
+   ![Endereçamento IP](/posts/2021-02-05-4.png){: width="100" height="100" }
 
 As classes são designadas pelas letras A, B, C, D e E. Na Classe A o primeiro bit do endereço é sempre 0 (zero), resultando em 224 ou 16.777.216 possíveis endereços de hosts (7 bits para NetID e 24 para HostID). Na Classe B os primeiros bits do endereço são sempre 10 (um, zero), resultando em 216 ou 65.536 possíveis endereços de hosts (14 bits para NetID e 16 para HostID). Na Classe C os primeiros bits do endereço são sempre 110 (um, um, zero), resultando em 28 ou 256 possíveis endereços de hosts (21 bits para NetID e 8 para HostID). Na Classe D os primeiros bits do endereço são sempre 1110 (um, um, um, zero). Esta classe é conhecida por Multicast ID, dada a sua utilização padrão para grupos de multicast. Na Classe E os primeiros bits do endereço são 1111 (um, um, um, um). Esta classe é de uso reservado pelos gestores de endereços globais para uso em projetos de pesquisa e testes.
 
@@ -342,7 +346,8 @@ Existem portas do TCP associadas a serviços e protocolos específicos, que não
 Transmissor e receptor trocam informações na forma de segmentos. Os Segmentos são compostos de um cabeçalho de tamanho fixo de 20 bytes e os dados da transmissão (informações que o usuário quer transmitir ou necessita receber). O software decide o tamanho do segmento, porém este é limitado ao payload do IP, que é de 64 kBytes (65.535 Bytes). O segmento também é limitado pelo MTU (Maximum Transfer Unit) do enlace de dados, isto é, a capacidade máxima de encaminhamento de segmentos e seu tamanho.
 
 Um pacote TCP:
-   ![Conversão entre sistemas](/posts/2021-02-05-6.png){: width="100" height="100" }
+
+   ![pacote TCP](/posts/2021-02-05-6.png){: width="100" height="100" }
 
 Os oito bits dos flags do TCP atuam no processo de comunicação com as seguintes finalidades:
 
@@ -386,7 +391,8 @@ O UDP também contempla portas específicas para determinados tipos de serviço 
 | 162   | SNMP       | Simple Network Management Protocol (trap)     |
 
 O pacote UDP:
-   ![Conversão entre sistemas](/posts/2021-02-05-8.png){: width="100" height="100" }
+
+   ![pacote UDP](/posts/2021-02-05-8.png){: width="100" height="100" }
 
 ## Protocolo SCTP
 
@@ -434,7 +440,8 @@ Os servidores DNS da internet estão organizados em uma hierarquia na forma de u
 Esta “árvore” de domínios comporta até 128 níveis, partindo da raiz – nível 0 –até o nível mais baixo – nível 127. Cada nó ou subdivisão da árvore é identificado por um rótulo (label) exclusivo que não se repetirá naquele nível. Uma sequência de rótulos separadas por pontos “.” forma um nome de domínio.
 
 Os domínios podem ser genéricos – por especialidade – como “.edu”, “.com”, “.net”, por área geográfica ou país, como “.br”, “.ch”, “.ar”.
-   ![Conversão entre sistemas](/posts/2021-02-05-10.png){: width="100" height="100" }
+
+   ![DNS](/posts/2021-02-05-10.png){: width="100" height="100" }
 
 Os domínios contêm diversos servidores de DNS, sendo o principal chamado de servidor DNS RAIZ. Este servidor define uma ZONA, à qual estão vinculados todos os demais servidores DNS primários e secundários. O servidor primário armazena e mantém atualizada a tabela de nomes do domínio, enquanto o servidor secundário mantém uma cópia desta tabela para atuar em caso de falha do servidor primário.
 
