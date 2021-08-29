@@ -3,11 +3,6 @@
  */
 
 @mixin dark-scheme {
-  /* my theme */
-  --darkgreen: #0E4357;
-  --lightblue: #ADEEE3;
-  --white: #EDF4F5;
-  --yellow: #F5B841;
   /* framework */
   --main-wrapper-bg: #0B3342;
   --body-bg: var(--main-wrapper-bg);
@@ -19,10 +14,10 @@
   --footer-bg-color: var(--main-wrapper-bg);
 
   /* common color */
-  --text-color: var(--white);
-  --heading-color: var(--white);
-  --text-muted-color: var(--lightblue);
-  --link-color: var(--yellow);
+  --text-color: #EDF4F5;
+  --heading-color: #EDF4F5;
+  --text-muted-color: #ADEEE3;
+  --link-color: #F5B841;
   --link-underline-color: rgb(82, 108, 150);
   --main-border-color: rgb(44, 45, 45);
   --button-bg: rgb(39, 40, 43);
@@ -45,7 +40,7 @@
   --topbar-text-color: var(--text-color);
 
   /* Home page */
-  --post-list-text-color: var(--white);
+  --post-list-text-color: #EDF4F5;
   --btn-patinator-text-color: var(--text-color);
   --btn-paginator-hover-color: rgb(64, 65, 66);
   --btn-active-bg: rgba(28, 52, 94, 1);
