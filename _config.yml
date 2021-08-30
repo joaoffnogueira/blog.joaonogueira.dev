@@ -44,11 +44,11 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/joãoffnogueira/
 
-google_site_verification: G-V86T4689PR # change to your verification string
+google_site_verification: G-7RCXJ5XJWN # change to your verification string
 # --------------------------
 
 google_analytics:
-  id: 'G-V86T4689PR'              # fill in your Google Analytics ID
+  id: 'G-7RCXJ5XJWN'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
