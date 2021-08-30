@@ -20,7 +20,7 @@ mermaid: true
 2. Diferenciação;
 3. Foco;
 
-## 4. Potencial empreendedor
+## 1. Potencial empreendedor
 
 * Capacidade da pessoa em desenvolver competências que enriqueçam o seu repertório de ações, para aproveitar oportunidades, a fim de satisfazer as necessidades dos clientes.
 * Utilidade para o cliente - finalidade da empresa - marketing e inovação.
@@ -45,12 +45,12 @@ mermaid: true
 15. responsabilidade social;
 16. nível de lucro. mínima rentabilidade necessária
 
-## 5. Criatividade e inovação
+## 2. Criatividade e inovação
 
 Competências criadoras e inovadoras
 Liderança e criatividade
 
-## 6. Identificando Oportunidades
+## 3. Identificando Oportunidades
 
 * I. Identificar a oportunidade do negócio;
 * II. Desenvolver o conceito do negócio;
@@ -79,9 +79,7 @@ Liderança e criatividade
 | Com que rapidez se completa a compra?                    |                                                                                                                    | O produto ou serviço fornece muito mais capacidade e opções do que as exigidas pela maioria dos usuários? | Qual é o grau de incômodo deles resultante?                            |                                                                | Qual é o custo do descarte?                                         |
 |                                                          |                                                                                                                    | Será que ele está cheio de itens desnecessários?                                                          | Qual é o grau de facilidade para obtê-los?                             |                                                                |                                                                     |
 
-
-
-## 7. Fatores a serem considerados na escolha do produto/serviço: primeira parte
+## 4. Fatores a serem considerados na escolha do produto/serviço: primeira parte
 
 Etapas da criação de um negócio próprio:
 
@@ -147,7 +145,7 @@ graph TD
     A-->G
 ```
 
-## 8. Fatores a serem considerados na escolha do produto/serviço: segunda parte
+## 5. Fatores a serem considerados na escolha do produto/serviço: segunda parte
 
 Avaliação do potencial de lucro e crescimento
 Características dos tipos de negócios:
@@ -172,7 +170,7 @@ Características dos tipos de negócios:
 * Fases do ciclo de vida: introdução, expansão, turbulência, saturação, declínio.
 * Efeito da experiência: quanto maior for o tempo em que um determinado produto é produzido, maiores serão as possibilidades de que seus custos de produção se reduzam e , num mercado competitivo, os preços também cairão.
 
-## 9. Critérios decisórios
+## 6. Critérios decisórios
 
 Foco em serviço:
 
