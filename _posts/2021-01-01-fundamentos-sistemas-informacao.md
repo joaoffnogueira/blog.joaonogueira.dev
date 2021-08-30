@@ -107,15 +107,15 @@ Analistas de sistemas: sua tarefa é traduzir os problemas e as necessidades da 
 
 Estratégias de sistemas de informação para lidar com as forças competitivas:
 
-· Estratégia básica: alinhe a TI com os objetivos do negócio;
+* Estratégia básica: alinhe a TI com os objetivos do negócio;
 
-· Liderança em custos;
+* Liderança em custos;
 
-· Diferenciação de produto;
+* Diferenciação de produto;
 
-· Foco em nichos de mercado;
+* Foco em nichos de mercado;
 
-· Maior intimidade com cliente e o fornecedor;
+* Maior intimidade com cliente e o fornecedor;
 
 | Força competitiva                                            | Impacto da Internet                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -135,15 +135,15 @@ Benchmarking: processo de comparar a eficiência e efetividade dos próprios pro
 
 As cinco dimensões morais da era da informação:
 
-· Direitos e deveres sobre a informação. Que direitos sobre a informação relativa a si própria os indivíduos e as organizações possuem? O que podem proteger?
+* Direitos e deveres sobre a informação. Que direitos sobre a informação relativa a si própria os indivíduos e as organizações possuem? O que podem proteger?
 
-· Direitos e deveres sobre a propriedade. Como os tradicionais direitos de propriedade intelectual serão protegidos em uma sociedade digital na qual identificar e prestar contas da propriedade é difícil, mas ignorar os direitos sobre ela é tão fácil?
+* Direitos e deveres sobre a propriedade. Como os tradicionais direitos de propriedade intelectual serão protegidos em uma sociedade digital na qual identificar e prestar contas da propriedade é difícil, mas ignorar os direitos sobre ela é tão fácil?
 
-· Prestação de contas e controle. Quem deverá prestar contas e ser responsabilizado por danos causados aos direitos individuais e coletivos sobre a informação e a propriedade?
+* Prestação de contas e controle. Quem deverá prestar contas e ser responsabilizado por danos causados aos direitos individuais e coletivos sobre a informação e a propriedade?
 
-· Qualidade do sistema. Que padrões de qualidade de dados e sistemas devem ser exigidos para proteger os direitos individuais e a segurança da sociedade?
+* Qualidade do sistema. Que padrões de qualidade de dados e sistemas devem ser exigidos para proteger os direitos individuais e a segurança da sociedade?
 
-· Qualidade de vida. Que valores devem ser preservados em uma sociedade baseada na informação e no conhecimento? Quais instituições devem ser protegidas contra a violação? Que valores e práticas culturais são apoiados pela nova tecnologia de informação?
+* Qualidade de vida. Que valores devem ser preservados em uma sociedade baseada na informação e no conhecimento? Quais instituições devem ser protegidas contra a violação? Que valores e práticas culturais são apoiados pela nova tecnologia de informação?
 
 Responsabilidade: significa que você aceita os custos, os deveres e as obrigações potenciais pelas decisões que toma.
 
@@ -153,29 +153,29 @@ Obrigação de indenizar (liability): amplia o conceito de responsabilidade para
 
 Análise ética:
 
-· Identifique e descreva claramento os fatos;
+* Identifique e descreva claramento os fatos;
 
-· Defina os conflitos ou dilema e identifique os valores de ordem mais elevada envolvidos;
+* Defina os conflitos ou dilema e identifique os valores de ordem mais elevada envolvidos;
 
-· Identifique os interessados;
+* Identifique os interessados;
 
-· Identifique as alternativas razoáveis a adotar;
+* Identifique as alternativas razoáveis a adotar;
 
-· Identifique as potenciais consequências das suas opções.
+* Identifique as potenciais consequências das suas opções.
 
 Princípios éticos eletivos:
 
-· Faça aos outros o que gostaria que fizessem a você (a regra de ouro).
+* Faça aos outros o que gostaria que fizessem a você (a regra de ouro).
 
-· Se uma ação não é correta para todos, então não é correta para ninguém (imperativo categórico de Immanuel Kant).
+* Se uma ação não é correta para todos, então não é correta para ninguém (imperativo categórico de Immanuel Kant).
 
-· Se uma ação não puder ser realizada repetidamente, então não deve ser realizada nunca (regra da mudança de Descartes).
+* Se uma ação não puder ser realizada repetidamente, então não deve ser realizada nunca (regra da mudança de Descartes).
 
-· Realize a ação que produza o valor mais alto ou maior (o princípio utilitário).
+* Realize a ação que produza o valor mais alto ou maior (o princípio utilitário).
 
-· Realize a ação que cause o menor dano ou que tenha o menor custo potencial (princípio da aversão ao risco).
+* Realize a ação que cause o menor dano ou que tenha o menor custo potencial (princípio da aversão ao risco).
 
-· Pressuponha que praticamente todos os objetos tangíveis e intangíveis pertençam a alguém, salvo declaração em contrário (essa é a regra ética "não existe almoço grátis").
+* Pressuponha que praticamente todos os objetos tangíveis e intangíveis pertençam a alguém, salvo declaração em contrário (essa é a regra ética "não existe almoço grátis").
 
 As dimensões morais dos sistemas de informação: privacidade, liberdade e propriedade intelectual.
 
