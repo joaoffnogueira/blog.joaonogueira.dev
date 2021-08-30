@@ -33,15 +33,15 @@ Finalidade das redes de computadores:
 
 Classificação das redes em função da sua abrangência geográfica:
 
-· PAN, do Inglês Personal Area Network ou rede de área pessoal (<=10m);
+* PAN, do Inglês Personal Area Network ou rede de área pessoal (<=10m);
 
-· LAN, de Local Area Network ou rede de área local, ou simplesmente Rede Local;
+* LAN, de Local Area Network ou rede de área local, ou simplesmente Rede Local;
 
-· MAN, de Metropolitan Area Network ou rede de área metropolitana ;
+* MAN, de Metropolitan Area Network ou rede de área metropolitana ;
 
-· WAN, de Wide Area Network ou rede de grande área;
+* WAN, de Wide Area Network ou rede de grande área;
 
-· E a Internet, isto é, a interconexão de redes, a rede das redes, ou rede de alcance mundial.
+* E a Internet, isto é, a interconexão de redes, a rede das redes, ou rede de alcance mundial.
 
 Classificação das redes em função da conectividade:
 
@@ -59,13 +59,13 @@ Cliente/servidor, ponto a ponto ou híbrida.
 
 Ethernet: É típica de topologia do tipo Estrela, e faz uso de prevenção e detecção de colisões com o CSMA/CD. As interfaces (cartões ou placas) de rede física (MAC) possuem endereços de 48 bits, ou seja, é possível designar até 248 endereços para os dispositivos ou hosts. A ethernet usa como padrões de mídia o 10 Base-T, com cabos CAT-5 e conector RJ-45. Com estes padrões consegue atingir distâncias de até 100 metros mantendo uma velocidade de comunicação de 10 Mbps (dez megabits por segundo). Com o passar do tempo e a evolução tecnológica, a ethernet também foi evoluindo, passando a apresentar novos padrões, tais como:
 
-· FAST ETHERNET, padrão IEEE 802.2, mídia 100 Base-T, cabo CAT-5 e conector RJ-45, que atinge até 100 Mbps em distâncias de até 100m;
+* FAST ETHERNET, padrão IEEE 802.2, mídia 100 Base-T, cabo CAT-5 e conector RJ-45, que atinge até 100 Mbps em distâncias de até 100m;
 
-· FAST ETHERNET em fibra ótica, mídia 100 Base-Fx, que atinge até 100 Mbps em até 2.000 m (ou 2 Km, dois quilômetros);
+* FAST ETHERNET em fibra ótica, mídia 100 Base-Fx, que atinge até 100 Mbps em até 2.000 m (ou 2 Km, dois quilômetros);
 
-· GIGABIT ETHERNET, padrão IEEE 802.3ab, cabos CAT-5, CAT-5e e CAT-6, com velocidades até 1 Gbps (Gigabits por segundo);
+* GIGABIT ETHERNET, padrão IEEE 802.3ab, cabos CAT-5, CAT-5e e CAT-6, com velocidades até 1 Gbps (Gigabits por segundo);
 
-· GIGABIT ETHERNET em fibra óptica, padrão IEEE 802.ah;
+* GIGABIT ETHERNET em fibra óptica, padrão IEEE 802.ah;
 
 Token Ring: utilizada principalmente em redes de topologia ANEL em ambientes de altíssimo volume de tráfego de dados, exigência de alta disponibilidade e baixíssima taxa de erros. Geralmente é empregada para a comunicação de computadores de grande porte, os Mainframes, dispositivos de armazenamento de grande capacidade, os Storages ou dispositivos voltados para a cópia de segurança dos dados destes sistemas, o Backup. Esta rede é eficiente para ambientes que trocam grandes volumes de dados pois evita a colisão – a tentativa de comunicação simultânea entre mais de dois dispositivos. Isto porque existe um TOKEN, isto é, um sinalizador que fica de posse de apenas um host a cada momento, e somente o host que tiver a posse do token poderá transmitir seus dados através da rede.
 
@@ -79,43 +79,43 @@ Mobile é composta de outras tecnologias que permitem o tráfego de dados, denom
 
 Topologia de uma rede de computadores é a forma através da qual os computadores e demais componentes ou dispositivos da rede estão organizados, ligados ou conectados entre si. Esta ligação pode ocorrer de forma física, através dos meios de comunicação e transmissão, ou lógica, configurada por software. A topologia física expressa a aparência ou layout da rede, e a lógica representa o fluxo dos dados na rede.
 
-· Ponto a ponto: um exemplo é a VPN;
+* Ponto a ponto: um exemplo é a VPN;
 
-· Barramento (BUS): todos os hosts compartilham um único meio para a comunicação. Este tipo de rede é fácil de se construir, pois o meio é único – um único cabo coaxial ou fibra ótica percorrendo toda a extensão da rede. Para evitar problemas de transmissão este tipo de rede usa um controle de acesso ao meio e de detecção de colisão do tipo CSMA/CD - Carrier Sense Multiple Access with Collision Detection ou Bus Master, ou seja, quando um host vai iniciar uma transmissão, primeiro verifica se o meio está livre.
+* Barramento (BUS): todos os hosts compartilham um único meio para a comunicação. Este tipo de rede é fácil de se construir, pois o meio é único – um único cabo coaxial ou fibra ótica percorrendo toda a extensão da rede. Para evitar problemas de transmissão este tipo de rede usa um controle de acesso ao meio e de detecção de colisão do tipo CSMA/CD - Carrier Sense Multiple Access with Collision Detection ou Bus Master, ou seja, quando um host vai iniciar uma transmissão, primeiro verifica se o meio está livre.
 
-· Estrela (Star): todos os hosts são conectados a um ponto ou nó central, normalmente um dispositivo de rede do tipo Hub ou Switch , mas também podem ser do tipo Repetidor, Bridge, Gateway, Router, etc. De fato existe uma conexão ponto a ponto entre os hosts e este nó central, pelo qual passa todo o tráfego da rede. Por isso, em caso de falha de um host os outros não são afetados, porém se o equipamento do nó central falhar, toda a rede fica inoperante.
+* Estrela (Star): todos os hosts são conectados a um ponto ou nó central, normalmente um dispositivo de rede do tipo Hub ou Switch , mas também podem ser do tipo Repetidor, Bridge, Gateway, Router, etc. De fato existe uma conexão ponto a ponto entre os hosts e este nó central, pelo qual passa todo o tráfego da rede. Por isso, em caso de falha de um host os outros não são afetados, porém se o equipamento do nó central falhar, toda a rede fica inoperante.
 
-· Anel (Ring): cada host é conectado a dois outros, seu antecessor e seu sucessor, ou o anterior e o seguinte. Desta forma há uma conexão ponto-aponto entre cada um destes dois hosts, e o tráfego da rede passa por cada um deles. Por isso mesmo, em caso de falha de um host toda a rede falha. Para evitar este tipo de falha normalmente há um anel backup no qual a informação circula em sentido contrário ao do principal.
+* Anel (Ring): cada host é conectado a dois outros, seu antecessor e seu sucessor, ou o anterior e o seguinte. Desta forma há uma conexão ponto-aponto entre cada um destes dois hosts, e o tráfego da rede passa por cada um deles. Por isso mesmo, em caso de falha de um host toda a rede falha. Para evitar este tipo de falha normalmente há um anel backup no qual a informação circula em sentido contrário ao do principal.
 
-· Mesh (Malha): Nas redes do tipo malha, cada host é conectado a todos os outros hosts (Full Mesh) ou pelo menos aos mais próximos a ele (Partially Mesh), através de uma conexão ponto a ponto entre cada host.
+* Mesh (Malha): Nas redes do tipo malha, cada host é conectado a todos os outros hosts (Full Mesh) ou pelo menos aos mais próximos a ele (Partially Mesh), através de uma conexão ponto a ponto entre cada host.
 
-· Árvore (Tree): Também chamada de Hierárquica ou de Hierarquia, este tipo de rede é organizada em camadas (layers), resultado de uma combinação das redes do tipo Barramento e Estrela. Hosts vizinhos e dispositivos em nós de transição entre os níveis utilizam uma conexão ponto a ponto, resultando que, em caso de falha dos nós centrais toda a rede falha. Esta é uma configuração típica das Redes Locais.
+* Árvore (Tree): Também chamada de Hierárquica ou de Hierarquia, este tipo de rede é organizada em camadas (layers), resultado de uma combinação das redes do tipo Barramento e Estrela. Hosts vizinhos e dispositivos em nós de transição entre os níveis utilizam uma conexão ponto a ponto, resultando que, em caso de falha dos nós centrais toda a rede falha. Esta é uma configuração típica das Redes Locais.
 
-· Daisy Chain: cada host é conectado a dois outros hosts, exceto os dois da extremidade da rede. É o resultado de uma combinação de redes do tipo barramento e anel, também fazendo uso de uma conexão ponto-a-ponto entre hosts vizinhos.
+* Daisy Chain: cada host é conectado a dois outros hosts, exceto os dois da extremidade da rede. É o resultado de uma combinação de redes do tipo barramento e anel, também fazendo uso de uma conexão ponto-a-ponto entre hosts vizinhos.
 
-· Híbrida.
+* Híbrida.
 
 Ativos de rede: são os equipamentos ou dispositivos que, em síntese, fazem a rede funcionar.
 
-· Concentrador ou Reforçador (Hub): É o dispositivo que centraliza a conexão de diversos hosts em um mesmo segmento da rede, ligando-os e formando uma rede de topologia estrela.
+* Concentrador ou Reforçador (Hub): É o dispositivo que centraliza a conexão de diversos hosts em um mesmo segmento da rede, ligando-os e formando uma rede de topologia estrela.
 
-· Repetidor: É o equipamento que conecta dois segmentos de rede recuperando e reforçando ou amplificando os sinais da transmissão.
+* Repetidor: É o equipamento que conecta dois segmentos de rede recuperando e reforçando ou amplificando os sinais da transmissão.
 
-· Bridge: É um ativo de rede que conecta dois segmentos de rede, tornando-os uma única rede, ou duas redes distintas entre si.
+* Bridge: É um ativo de rede que conecta dois segmentos de rede, tornando-os uma única rede, ou duas redes distintas entre si.
 
-· Comutador (Switch): É o equipamento mais comum em redes locais, pois conecta hosts de diferentes segmentos de rede. Diferentemente do HUB, o Switch retransmite os pacotes de dados apenas para o host ou nó de destino, fechando um circuito entre este e o host ou nó de origem dos dados e emulando uma rede ponto a ponto entre ambos. Também permite as transmissões simultâneas ("conversas em paralelo") e, devido à segregação dos circuitos comutados, diminui o número de colisões no segmento de rede.
+* Comutador (Switch): É o equipamento mais comum em redes locais, pois conecta hosts de diferentes segmentos de rede. Diferentemente do HUB, o Switch retransmite os pacotes de dados apenas para o host ou nó de destino, fechando um circuito entre este e o host ou nó de origem dos dados e emulando uma rede ponto a ponto entre ambos. Também permite as transmissões simultâneas ("conversas em paralelo") e, devido à segregação dos circuitos comutados, diminui o número de colisões no segmento de rede.
 
-· Roteador (Router): é o dispositivo que conecta - ou separa - redes distintas, evitando que pacotes de uma trafeguem de forma indiscriminada para outra, e encaminhando os pacotes destinados a hosts da outra rede. Um router é capaz de traçar a melhor rota – ou caminho - para um determinado pacote de dados, identificar o estado dos segmentos de rede quando à disponibilidade ou tráfego e ainda impor determinadas regras de segurança.
+* Roteador (Router): é o dispositivo que conecta - ou separa - redes distintas, evitando que pacotes de uma trafeguem de forma indiscriminada para outra, e encaminhando os pacotes destinados a hosts da outra rede. Um router é capaz de traçar a melhor rota – ou caminho - para um determinado pacote de dados, identificar o estado dos segmentos de rede quando à disponibilidade ou tráfego e ainda impor determinadas regras de segurança.
 
-· Gateway: É o dispositivo que conecta redes com tecnologias distintas entre si, tal como as Bridges, porém com capacidade de realizar a tradução de protocolos e a conversão de dados. Proxy, Firewall e IDS (Intrusion Detection System).
+* Gateway: É o dispositivo que conecta redes com tecnologias distintas entre si, tal como as Bridges, porém com capacidade de realizar a tradução de protocolos e a conversão de dados. Proxy, Firewall e IDS (Intrusion Detection System).
 
 Meios de transmissão: são os canais, as vias ou condutores pelos quais os computadores e os dispositivos de rede enviam e recebem os dados. Eles são capazes de transportar sinais elétricos e eletromagnéticos (ondas de rádio) e a luz, que por sua vez carregam as informações em sua menor unidade, o BIT.
 
-· Cabos elétricos;
+* Cabos elétricos;
 
-· Cabos óticos;
+* Cabos óticos;
 
-· Sinais luminosos ou ondas eletromagnéticas.
+* Sinais luminosos ou ondas eletromagnéticas.
 
 # 2 Protocolos de comunicação
 
@@ -131,49 +131,49 @@ O modelo ISO/OSI é um padrão da ISO - International Standard Organization para
 
 3 - Rede: É a camada ou nível que:
 
-· Cuida da atribuição de endereços aos hosts. É nesta camada que o endereço lógico é configurado, reconhecido e tratado;
+* Cuida da atribuição de endereços aos hosts. É nesta camada que o endereço lógico é configurado, reconhecido e tratado;
 
-· Trata da definição do roteamento, isto é, o caminho pelo qual os pacotes de informação serão enviados até o destino;
+* Trata da definição do roteamento, isto é, o caminho pelo qual os pacotes de informação serão enviados até o destino;
 
-· Faz o controle da transmissão, adequando o fluxo de dados às características do meio de transmissão (como a velocidade, por exemplo);
+* Faz o controle da transmissão, adequando o fluxo de dados às características do meio de transmissão (como a velocidade, por exemplo);
 
-· Realiza o tratamento de erros de transmissão, fazendo a detecção e providenciando a correção dos erros; - Mantém as tabelas de roteamento ou rotas estáticas;
+* Realiza o tratamento de erros de transmissão, fazendo a detecção e providenciando a correção dos erros; - Mantém as tabelas de roteamento ou rotas estáticas;
 
-· Controla a formação dos pacotes de dados de entrada e saída e faz o encaminhamento de acordo com a qualidade e as restrições do serviço;
+* Controla a formação dos pacotes de dados de entrada e saída e faz o encaminhamento de acordo com a qualidade e as restrições do serviço;
 
-· Possibilita a conexão entre redes diferentes;
+* Possibilita a conexão entre redes diferentes;
 
-· Busca a entrega de pacotes para o destino com o menor esforço;
+* Busca a entrega de pacotes para o destino com o menor esforço;
 
-· Fornece os mecanismos para a comunicação através de conexões ou a comunicação sem conexão.
+* Fornece os mecanismos para a comunicação através de conexões ou a comunicação sem conexão.
 
 Além disso, provê os seguintes serviços e recursos:
 
-· Gerenciamento da qualidade dos serviços (QoS – Quality of Service);
+* Gerenciamento da qualidade dos serviços (QoS – Quality of Service);
 
-· Balanceamento de carga e gerenciamento de link de dados;
+* Balanceamento de carga e gerenciamento de link de dados;
 
-· Segurança;
+* Segurança;
 
-· Interação entre diferentes protocolos e a comunicação entre redes diferentes;
+* Interação entre diferentes protocolos e a comunicação entre redes diferentes;
 
-· Configuração de uma rede lógica sobre a rede física.
+* Configuração de uma rede lógica sobre a rede física.
 
-· Utilização de VPN - Virtual Privative Network ou Rede Privativa Virtual nível L3
+* Utilização de VPN - Virtual Privative Network ou Rede Privativa Virtual nível L3
 
-· Túneis para a conexão dedicada ponto-a-ponto.
+* Túneis para a conexão dedicada ponto-a-ponto.
 
 É na camada de rede que atuam os roteadores, tratando do encaminhamento (ou roteamento) dos pacotes e da distribuição da transmissão, que pode ser: - Unicast: destinado a um único host; - Multicast: destinado a um grupo de hosts; - Broadcast: destinado a todos os hosts da rede; - Anycast: destinado aos hosts mais próximos.
 
 4 - Transporte: É a camada que responde pela entrega dos pacotes de dados aos hosts, cuidando da comunicação de ponta a ponta, entre host que podem nem mesmo pertencer à mesma rede. Suas principais atribuições são:
 
-· Divide os dados fornecidos pela camada de aplicação em unidades menores, chamadas segmentos, numerando-os e mantendo o registro de cada segmento.
+* Divide os dados fornecidos pela camada de aplicação em unidades menores, chamadas segmentos, numerando-os e mantendo o registro de cada segmento.
 
-· Assegura que os dados devem ser recebidos na mesma sequência em que foram enviados. - Além dos endereços de rede são associados aos segmentos um número de porta.
+* Assegura que os dados devem ser recebidos na mesma sequência em que foram enviados. - Além dos endereços de rede são associados aos segmentos um número de porta.
 
-· Por sua vez estas portas estão associadas a determinados tipos de serviço e às aplicações que os utilizam.
+* Por sua vez estas portas estão associadas a determinados tipos de serviço e às aplicações que os utilizam.
 
-· As portas também são numeradas e tem usos definidos.
+* As portas também são numeradas e tem usos definidos.
 
 5 - Sessão: Nesta camada são estabelecidas as sessões de comunicação entre os hosts. Sessões são definidas por intervalos de tempo nos quais um serviço é fornecido ou uma atividade é realizada. Para iniciar uma sessão é necessário realizar uma autenticação, isto é, identificar quem está solicitando o serviço ou a atividade. Esta camada também cuida do reconhecimento de nomes e do registro das atividades (log) na rede.
 
@@ -187,13 +187,13 @@ Transmission Control Protocol/Internet Protocol suite é um conjunto de protocol
 
 De modo análogo ao modelo ISO/OSI, é apresentado em camadas, porém, ao invés das sete camadas do modelo OSI/ISO, contém quatro camadas interdependentes, a saber:
 
-· Interface de rede: especifica o tratamento dos bits, isto é, como a informação vai ser repassada para o meio físico por meio das interfaces eletrônicas. Nesta camada estão as tecnologias voltadas para o hardware, como o Ethernet e Token Ring.
+* Interface de rede: especifica o tratamento dos bits, isto é, como a informação vai ser repassada para o meio físico por meio das interfaces eletrônicas. Nesta camada estão as tecnologias voltadas para o hardware, como o Ethernet e Token Ring.
 
-· Inter rede ou internet: é a que contempla o IP – Internet Protocol, que trata do empacotamento dos dados (IP Datagrams) e de seu encaminhamento, isto é, do roteamento do pacote pela rede. A face mais característica é o endereço IP, um conjunto de números que representa o endereço de cada host para a rede.
+* Inter rede ou internet: é a que contempla o IP – Internet Protocol, que trata do empacotamento dos dados (IP Datagrams) e de seu encaminhamento, isto é, do roteamento do pacote pela rede. A face mais característica é o endereço IP, um conjunto de números que representa o endereço de cada host para a rede.
 
-· Transporte: é a responsável pelo nível de serviço e pelo controle da conexão que provê o transporte das informações pelas rotas da rede. Nela estão definidos os protocolos TCP (Transmission Control Protocol) e UDP(User Datagram Protocol, mais simples e sem garantia de entrega).
+* Transporte: é a responsável pelo nível de serviço e pelo controle da conexão que provê o transporte das informações pelas rotas da rede. Nela estão definidos os protocolos TCP (Transmission Control Protocol) e UDP(User Datagram Protocol, mais simples e sem garantia de entrega).
 
-· Aplicação: cuida dos protocolos de aplicação e de como a aplicação realiza a comunicação com os serviços da camada de transporte. Nesta camada estão os protocolos como FTP, HTTP, SMTP e DHCP.
+* Aplicação: cuida dos protocolos de aplicação e de como a aplicação realiza a comunicação com os serviços da camada de transporte. Nesta camada estão os protocolos como FTP, HTTP, SMTP e DHCP.
 
 O endereço IP: É um conjunto de quatro grupos de números binários de oito bits (bytes ou octetos), podendo variar de 0 (20) a 255 (28 – 1). É o identificador único de um host (ou interface) em uma rede específica. Os grupos de números são representados por dígitos decimais separados por pontos.
 
@@ -223,21 +223,21 @@ No modelo TCP/IP a camada de Rede combina as camadas de enlace de dados (link) e
 
 No modelo TCP/IP as camadas de Aplicação, Apresentação e Sessão - camadas 7, 6 e 5 do modelo ISO/OSI - são combinadas e formam a camada de aplicação. Nesta camada estão presentes os seguintes protocolos ou serviços, entre outros:
 
-· DNS - Domain Name Service ou serviço de nomes do domínio;
+* DNS - Domain Name Service ou serviço de nomes do domínio;
 
-· SMTP – Simple Mail Transfer Protocol ou protocolo simples de transferência de correio
+* SMTP – Simple Mail Transfer Protocol ou protocolo simples de transferência de correio
 
-· FTP – File Transfer Protocol ou protocolo de transferência de arquivo; -
+* FTP – File Transfer Protocol ou protocolo de transferência de arquivo; -
 
-· Ping – serviço / programa de teste de tráfego entre hosts e redes que funciona por meio de um “eco” de pacotes;
+* Ping – serviço / programa de teste de tráfego entre hosts e redes que funciona por meio de um “eco” de pacotes;
 
-· HTTP – Hyper Text Transfer Protocol ou protocolo de transferência de hipertexto;
+* HTTP – Hyper Text Transfer Protocol ou protocolo de transferência de hipertexto;
 
-· NFS – Network File System ou sistema de arquivo em rede;
+* NFS – Network File System ou sistema de arquivo em rede;
 
-· POP – Post Office Protocol ou protocolo de correio;
+* POP – Post Office Protocol ou protocolo de correio;
 
-· Telnet – Terminal Link over Network ou Terminal Virtual da Rede.
+* Telnet – Terminal Link over Network ou Terminal Virtual da Rede.
 
 As camadas de Enlace e Física – camadas 2 e 1 do modelo ISO/OSI são unificadas na camada de Rede – camada 1 do TCP/IP. Como já visto, isto se deve à necessidade de preservar, no TCP/IP, a independência da rede.
 
@@ -245,15 +245,15 @@ As camadas de Enlace e Física – camadas 2 e 1 do modelo ISO/OSI são unificad
 
 Na camada 2 do TCP/IP – camada inter-redes, são definidos os protocolos responsáveis por tratar da comunicação entre as redes, a saber:
 
-· IP – Internet Protocol ou protocolo internet, é o mais conhecido e mais importante protocolo desta camada, responsável, entre outras funcionalidades, pelo endereçamento dos hosts na Internet, que também chamamos endereço IP. O IP faz o encaminhamento dos pacotes entre as redes utilizando o endereço IP do host, a máscara de rede e o gateway padrão. Por exemplo: endereço do host 192.168.1.25, máscara de rede 255.255.255.0 e gateway padrão 192.168.1.1;
+* IP – Internet Protocol ou protocolo internet, é o mais conhecido e mais importante protocolo desta camada, responsável, entre outras funcionalidades, pelo endereçamento dos hosts na Internet, que também chamamos endereço IP. O IP faz o encaminhamento dos pacotes entre as redes utilizando o endereço IP do host, a máscara de rede e o gateway padrão. Por exemplo: endereço do host 192.168.1.25, máscara de rede 255.255.255.0 e gateway padrão 192.168.1.1;
 
-· ARP – Address Resolution Protocol, ou protocolo de resolução de endereço, busca o endereço físico da interface de rede que corresponde a um IP. Este endereço, também chamado MAC Address, é um número de 48 bits, geralmente representado em hexadecimal, como por exemplo: 94-eb-cd-26-5d-16. O ARP cria uma tabela em memória com a equivalência entre endereço físico e endereço IP. É possível acessar esta tabela com o comando ARP –a na linha de comando do Windows.
+* ARP – Address Resolution Protocol, ou protocolo de resolução de endereço, busca o endereço físico da interface de rede que corresponde a um IP. Este endereço, também chamado MAC Address, é um número de 48 bits, geralmente representado em hexadecimal, como por exemplo: 94-eb-cd-26-5d-16. O ARP cria uma tabela em memória com a equivalência entre endereço físico e endereço IP. É possível acessar esta tabela com o comando ARP –a na linha de comando do Windows.
 
-· RARP - Reverse Address Resolution Protocol ou Protocolo de Resolução Reversa de Endereços associa um endereço físico (MAC Address) conhecido à um endereço IP. É necessário haver um servidor ou serviço RARP na rede para responder às solicitações dos hosts, retornando o IP ligado ao MAC Address fornecido. Como o próprio nome diz, faz o trabalho reverso do ARP.
+* RARP - Reverse Address Resolution Protocol ou Protocolo de Resolução Reversa de Endereços associa um endereço físico (MAC Address) conhecido à um endereço IP. É necessário haver um servidor ou serviço RARP na rede para responder às solicitações dos hosts, retornando o IP ligado ao MAC Address fornecido. Como o próprio nome diz, faz o trabalho reverso do ARP.
 
-· ICMP - O Internet Control Message Protocol ou Protocolo Internet de Controle de Mensagem permite informar os erros ocorridos no processo de comunicação entre hosts. O protocolo IP não trata os erros, mas os informa às camadas subjacentes que podem tratar, registrar ou comunicar os erros. Os switches e os routers utilizam o ICMP para assinalar erros (delivery problem). Um exemplo do uso do ICMP é o comando ping, que faz uso de mensagens ICMP. O comando solicita um “eco” para um host destino. Se o host destino devolver o pacote enviado à origem, então pode ser alcançado pela comunicação.
+* ICMP - O Internet Control Message Protocol ou Protocolo Internet de Controle de Mensagem permite informar os erros ocorridos no processo de comunicação entre hosts. O protocolo IP não trata os erros, mas os informa às camadas subjacentes que podem tratar, registrar ou comunicar os erros. Os switches e os routers utilizam o ICMP para assinalar erros (delivery problem). Um exemplo do uso do ICMP é o comando ping, que faz uso de mensagens ICMP. O comando solicita um “eco” para um host destino. Se o host destino devolver o pacote enviado à origem, então pode ser alcançado pela comunicação.
 
-· IGMP - Internet Group Management Protocol serve para controlar os membros de um grupo de multicast controlando a entrada e a saída dos hosts deste grupo. Desta forma o protocolo otimiza os recursos de uma rede, pois os roteadores só enviam multicast para os hosts de um determinado grupo. Multicast é a transmissão de áudio e/ou vídeo de um host para um grupo ou conjunto de outros hosts previamente conhecidos. Como exemplos de uso de multicast estão os jogos em rede, as videoconferências e a distribuição de vídeo pela rede no formado de Video on Demand - VOD e IP Television – IPTV.
+* IGMP - Internet Group Management Protocol serve para controlar os membros de um grupo de multicast controlando a entrada e a saída dos hosts deste grupo. Desta forma o protocolo otimiza os recursos de uma rede, pois os roteadores só enviam multicast para os hosts de um determinado grupo. Multicast é a transmissão de áudio e/ou vídeo de um host para um grupo ou conjunto de outros hosts previamente conhecidos. Como exemplos de uso de multicast estão os jogos em rede, as videoconferências e a distribuição de vídeo pela rede no formado de Video on Demand - VOD e IP Television – IPTV.
 
    ![Internetworking no TCP/IP e no ISO/OSI](/posts/2021-02-05-3.png){: width="100" height="100" }
 
@@ -267,17 +267,17 @@ As classes são designadas pelas letras A, B, C, D e E. Na Classe A o primeiro b
 
 Endereços reservados:
 
-· 127.x.x.x - Reservados para testes internos (também chamado de localhost ou loopback);
+* 127.x.x.x - Reservados para testes internos (também chamado de localhost ou loopback);
 
-· O primeiro e o último endereço da classe ou da sub-rede: O primeiro, por exemplo 192.168.10.0, é o endereço da rede. O último, por exemplo 192.168.255.255, é o endereço de broadcast para a rede em questão.
+* O primeiro e o último endereço da classe ou da sub-rede: O primeiro, por exemplo 192.168.10.0, é o endereço da rede. O último, por exemplo 192.168.255.255, é o endereço de broadcast para a rede em questão.
 
 Além disso existem os endereços específicos recomendados para as redes locais ou redes internas conectadas à Internet. As faixas recomendadas para redes locais (internas) são:
 
-· 10.0.0.0 a 10.255.255.255
+* 10.0.0.0 a 10.255.255.255
 
-· 172.16.0.0 a 172.31.255.255
+* 172.16.0.0 a 172.31.255.255
 
-· 192.168.0.0 a 192.168.255.255
+* 192.168.0.0 a 192.168.255.255
 
 É por isto que sempre se verifica a ocorrência destes endereços nos hosts das redes locais.
 
@@ -313,21 +313,21 @@ O processo de transmissão nesta camada funciona da seguinte maneira: transmisso
 
 O protocolo TCP tem como principal característica a garantia da entrega da informação, isto é, a confiabilidade da transmissão. As suas outras características são:
 
-· Orientado à conexão: É necessário estabelecer uma conexão entre os hosts que pretende comunicar entre si. Para isto é necessário encaminhar, por meio da rede, informações de um para o outro de forma que se reconheçam e consigam iniciar a comunicação.
+* Orientado à conexão: É necessário estabelecer uma conexão entre os hosts que pretende comunicar entre si. Para isto é necessário encaminhar, por meio da rede, informações de um para o outro de forma que se reconheçam e consigam iniciar a comunicação.
 
-· Ponto a ponto: A comunicação acontece entre um host e outro do início ao fim, isto é, um host é a origem e outro é o destino (e vice-versa) como se estivessem fisicamente ligados.
+* Ponto a ponto: A comunicação acontece entre um host e outro do início ao fim, isto é, um host é a origem e outro é o destino (e vice-versa) como se estivessem fisicamente ligados.
 
-· Confiabilidade: As informações encaminhadas por meio da rede têm a garantia da entrega durante todo o processo de comunicação, incluindo-se a identificação, o tratamento e a correção de erros.
+* Confiabilidade: As informações encaminhadas por meio da rede têm a garantia da entrega durante todo o processo de comunicação, incluindo-se a identificação, o tratamento e a correção de erros.
 
-· Full duplex: Uma vez estabelecida a conexão entre os hosts a comunicação flui nos dois sentidos, fazendo com que ambos sejam, simultaneamente, origem e destino da comunicação.
+* Full duplex: Uma vez estabelecida a conexão entre os hosts a comunicação flui nos dois sentidos, fazendo com que ambos sejam, simultaneamente, origem e destino da comunicação.
 
-· Handshake: O processo de comunicação precisa estabelecer o reconhecimento mútuo entre os hosts antes de iniciar a transmissão/recepção das informações. O TCP usa para isso o triplo handshake com o objetivo de sincronizar algumas informações, como o número de sequência dos pacotes, por exemplo.
+* Handshake: O processo de comunicação precisa estabelecer o reconhecimento mútuo entre os hosts antes de iniciar a transmissão/recepção das informações. O TCP usa para isso o triplo handshake com o objetivo de sincronizar algumas informações, como o número de sequência dos pacotes, por exemplo.
 
-· Entrega ordenada: Os pacotes da informação são entregues em sequência ordenada ao destinatário, de forma que a informação original possa ser remontada ou reconstruída para ser entregue à camada de aplicação exatamente como estava na origem.
+* Entrega ordenada: Os pacotes da informação são entregues em sequência ordenada ao destinatário, de forma que a informação original possa ser remontada ou reconstruída para ser entregue à camada de aplicação exatamente como estava na origem.
 
-· Controle de fluxo: O processo de comunicação inclui a confirmação do recebimento de cada pacote e a avaliação da quantidade de informações recebidas e aceitas, podendo inclusive atuar sobre parâmetros da comunicação para adequar o fluxo às condições da rede naquele momento.
+* Controle de fluxo: O processo de comunicação inclui a confirmação do recebimento de cada pacote e a avaliação da quantidade de informações recebidas e aceitas, podendo inclusive atuar sobre parâmetros da comunicação para adequar o fluxo às condições da rede naquele momento.
 
-· O TCP não permite broadcast e tampouco multicasting.
+* O TCP não permite broadcast e tampouco multicasting.
 
 Existem portas do TCP associadas a serviços e protocolos específicos, que não podem ser utilizadas com outro propósito. Como já mencionado, estas portas são denominadas portas conhecidas e seu valor está no limite de 1024. As mais conhecidas são as seguintes:
 
@@ -351,17 +351,17 @@ Um pacote TCP:
 
 Os oito bits dos flags do TCP atuam no processo de comunicação com as seguintes finalidades:
 
-· CWR - Congestion Window Reduced ou janela de congestionamento reduzida, significa que o fluxo de informação deve ser reduzido em função de perdas ou atraso na informação;
+* CWR - Congestion Window Reduced ou janela de congestionamento reduzida, significa que o fluxo de informação deve ser reduzido em função de perdas ou atraso na informação;
 
-· ECE - Confirma o “echo” da conexão TCP durante um handshake;
+* ECE - Confirma o “echo” da conexão TCP durante um handshake;
 
-· URG – Indica que o pacote requer tratamento de urgência (pouco utilizado);
+* URG – Indica que o pacote requer tratamento de urgência (pouco utilizado);
 
-· ACK – Reconhecimento válido;
+* ACK – Reconhecimento válido;
 
-· PSH – Envio imediato dos dados, sem aguardar o preenchimento do buffer;
+* PSH – Envio imediato dos dados, sem aguardar o preenchimento do buffer;
 
-· RST, SYN e FIN – Processo de estabelecimento e liberação da conexão;
+* RST, SYN e FIN – Processo de estabelecimento e liberação da conexão;
 
 ## O protocolo UDP
 
@@ -398,27 +398,27 @@ O pacote UDP:
 
 Stream Control Transmission Protocol é um protocolo de transporte confiável que opera sobre um serviço de pacotes não confiável e sem conexão, como é o caso do IP. O SCTP é orientado a mensagens e utiliza o conceito de associação para estabelecer vários fluxos de comunicação. Além disso provê suporte para Multihoming. As principais características do SCTP são:
 
-· Entrega confirmada de dados de usuário, livre de erros e não duplicados;
+* Entrega confirmada de dados de usuário, livre de erros e não duplicados;
 
-· Fragmentação de dados em conformidade com o MTU descoberto do caminho;
+* Fragmentação de dados em conformidade com o MTU descoberto do caminho;
 
-· Entrega sequencial de dados de usuário em múltiplos fluxos;
+* Entrega sequencial de dados de usuário em múltiplos fluxos;
 
-· Empacotamento opcional de múltiplas mensagens de usuário num único pacote SCTP;
+* Empacotamento opcional de múltiplas mensagens de usuário num único pacote SCTP;
 
-· Tolerância a falhas de rede através do suporte a caminhos múltiplos (multihoming);
+* Tolerância a falhas de rede através do suporte a caminhos múltiplos (multihoming);
 
-· O SCTP é rate adaptative, adaptando-se às variações da rede;
+* O SCTP é rate adaptative, adaptando-se às variações da rede;
 
 O SCTP é um protocolo mais adaptado às necessidades de comunicação das redes modernas, e, portanto, apresenta alguns benefícios quando comparado ao TCP e ao UDP, como segue:
 
-· O SCTP provê transmissão confiável, e detecta quando os dados são descartados, reordenados, duplicados ou corrompidos, retransmitindo os dados quando necessário;
+* O SCTP provê transmissão confiável, e detecta quando os dados são descartados, reordenados, duplicados ou corrompidos, retransmitindo os dados quando necessário;
 
-· O SCTP é orientado a conexão;
+* O SCTP é orientado a conexão;
 
-· O SCTP usa o conceito de associação, o que o torna mais abrangente que a conexão TCP. Enquanto uma conexão TCP estabelece apenas um único fluxo full duplex, uma associação SCTP estabelece um número arbitrário de fluxos simplex. Porém, para simular uma conexão TCP, basta criar um fluxo SCTP em cada direção;
+* O SCTP usa o conceito de associação, o que o torna mais abrangente que a conexão TCP. Enquanto uma conexão TCP estabelece apenas um único fluxo full duplex, uma associação SCTP estabelece um número arbitrário de fluxos simplex. Porém, para simular uma conexão TCP, basta criar um fluxo SCTP em cada direção;
 
-· O SCTP tem potencial de substituir o TCP em diversas aplicações, e além disso pois todas as portas reservadas pelo IANA ao TCP são automaticamente reservadas ao SCTP.
+* O SCTP tem potencial de substituir o TCP em diversas aplicações, e além disso pois todas as portas reservadas pelo IANA ao TCP são automaticamente reservadas ao SCTP.
 
 # 5 Aplicação
 
@@ -467,21 +467,21 @@ O programa aplicativo cliente/servidor TELNET – de TErminaL NETwork é uma apl
 
 Para estabelecer a comunicação com o host remoto o TELNET usa uma conexão TCP e a porta 23 do servidor. O funcionamento do TELNET ocorre de três modos de operação:
 
-· O modo Padrão, utilizado quando nenhum outro modo for negociado, e aquele no qual o eco é local, isto é, uma vez digitado um caractere, o próprio cliente (terminal local) faz a apresentação do mesmo na tela, porém só transmite para o servidor (host remoto) a linha inteira (ou até que pressionada a tecla ).
+* O modo Padrão, utilizado quando nenhum outro modo for negociado, e aquele no qual o eco é local, isto é, uma vez digitado um caractere, o próprio cliente (terminal local) faz a apresentação do mesmo na tela, porém só transmite para o servidor (host remoto) a linha inteira (ou até que pressionada a tecla ).
 
-· No modo Caractere cada vez que um caracter é digitado o mesmo é enviado ao servidor, que o retransmite de volta para que o cliente faça a apresentação na tela. Isto gera dois efeitos: em conexões mais lentas ou congestionadas, pode haver um retardo entre a digitação e a apresentação do caracter; além disso cada caracter digitado vai gerar três segmentos de TCP na rede.
+* No modo Caractere cada vez que um caracter é digitado o mesmo é enviado ao servidor, que o retransmite de volta para que o cliente faça a apresentação na tela. Isto gera dois efeitos: em conexões mais lentas ou congestionadas, pode haver um retardo entre a digitação e a apresentação do caracter; além disso cada caracter digitado vai gerar três segmentos de TCP na rede.
 
-· No modo Linha a edição de linhas (eco, correção, etc.) é realizada pelo cliente. Quando finalizada a edição pela tecla então toda a linha é enviada para o servidor.
+* No modo Linha a edição de linhas (eco, correção, etc.) é realizada pelo cliente. Quando finalizada a edição pela tecla então toda a linha é enviada para o servidor.
 
 ## Correio Eletrônico
 
 O serviço de correio eletrônico usa uma arquitetura com três componentes principais, a saber:
 
-· O User Agente (UA), agente de usuário, é o serviço ou aplicação responsável pelas operações do e-mail no cliente, seja o remetente ou o destinatário;
+* O User Agente (UA), agente de usuário, é o serviço ou aplicação responsável pelas operações do e-mail no cliente, seja o remetente ou o destinatário;
 
-· O Message Transfer Agent (MTA), agente de transferência de mensagens, é a aplicação cliente/servidor que responde pelo envio de mensagens à um servidor de correio eletrônico;
+* O Message Transfer Agent (MTA), agente de transferência de mensagens, é a aplicação cliente/servidor que responde pelo envio de mensagens à um servidor de correio eletrônico;
 
-· Message Access Agent (MAA), agente de acesso às mensagens, é a aplicação cliente/servidor responsável por buscar as mensagens em um servidor de e-mail.
+* Message Access Agent (MAA), agente de acesso às mensagens, é a aplicação cliente/servidor responsável por buscar as mensagens em um servidor de e-mail.
 
 Um serviço de Correio Eletrônico pode operar de quatro modos distintos. No primeiro modo, o remetente e destinatário est\]ao conectados no no mesmo sistema. Neste caso é necessário apenas o uso dos programas User Agent (UA). O remetente faz uso do UA para preparar e encaminhar seu e-mail para o remetente que, quando usar seu UA, receberá a mensagem. É o caso típico do serviço “mail” do UNIX / LINUX.
 
@@ -503,13 +503,13 @@ O POP3 – Post Office Protocol versão 3 ou Protocolo de Posto de Correio é o 
 
 O IMAP – Internet Mail Access Protocol ou Protocolo de Acesso a Correio pela Internet é o protocolo que define a comunicação entre cliente e servidor Message Access Agent (MAA) de forma similar ao POP3, porém com muitos recursos adicionais, como por exemplo:
 
-· É possível acessar o assunto de um e-mail antes de transferi-lo para o UA;
+* É possível acessar o assunto de um e-mail antes de transferi-lo para o UA;
 
-· É possível pesquisar um conteúdo específico nos e-mails do servidor;
+* É possível pesquisar um conteúdo específico nos e-mails do servidor;
 
-· É possível baixar parcialmente um e-mail (sem as imagens, vídeos ou anexos, por exemplo);
+* É possível baixar parcialmente um e-mail (sem as imagens, vídeos ou anexos, por exemplo);
 
-· Também é possível que o usuário gerencie pastas e defina o armazenamento de suas mensagens nestas pastas no servidor de e-mail.
+* Também é possível que o usuário gerencie pastas e defina o armazenamento de suas mensagens nestas pastas no servidor de e-mail.
 
 O IMPA4 utiliza a porta 143 do TCP para as conexões cliente / servidor com o servidor de e-mail.
 
@@ -565,15 +565,15 @@ O HTTP permite o uso de servidores PROXY, os quais mantém uma cópia dos docume
 
 Um sistema de gerenciamento de redes é composto de um conjunto de atividades e recursos para atender às principais funções do gerenciamento de rede, que podem ser agrupadas em:
 
-· Gerenciamento de configuração: tem por finalidade informar o estado de cada elemento e sua relação com os demais a cada instante, incluindo as mudanças e problemas ocorridos. Geralmente estas informações são fornecidas pelos processos de reconfiguração e de documentação (software e hardware) da rede;
+* Gerenciamento de configuração: tem por finalidade informar o estado de cada elemento e sua relação com os demais a cada instante, incluindo as mudanças e problemas ocorridos. Geralmente estas informações são fornecidas pelos processos de reconfiguração e de documentação (software e hardware) da rede;
 
-· Gerenciamento de falhas: trata do funcionamento adequado de cada elemento da rede, buscando o bom funcionamento da rede como um todo. O processo de gerenciamento de falhas da rede comporta duas abordagens: gerenciamento reativo e gerenciamento proativo. O gerenciamento reativo abrange as tarefas de detecção, isolamento, correção e registro de falhas. O gerenciamento proativo tem por objetivos impedir a ocorrência de falhas por meio de medidas de prevenção e identificação de sinais divergentes, ou mesmo da utilização de critérios específicos como a vida útil e a capacidade de trabalho de determinados elementos da rede;
+* Gerenciamento de falhas: trata do funcionamento adequado de cada elemento da rede, buscando o bom funcionamento da rede como um todo. O processo de gerenciamento de falhas da rede comporta duas abordagens: gerenciamento reativo e gerenciamento proativo. O gerenciamento reativo abrange as tarefas de detecção, isolamento, correção e registro de falhas. O gerenciamento proativo tem por objetivos impedir a ocorrência de falhas por meio de medidas de prevenção e identificação de sinais divergentes, ou mesmo da utilização de critérios específicos como a vida útil e a capacidade de trabalho de determinados elementos da rede;
 
-· Gerenciamento de desempenho: busca a melhor eficiência os equipamentos e da rede como um todo, e trabalha e, conjunto com o gerenciamento de falhas. Trata-se do monitoramento e controle da rede com base em critérios quantitativos e qualitativos que analisa constantemente a capacidade (determinada pelos equipamentos e meios de transmissão), o tráfego na rede (representa a quantidade de bits ou bytes que são encaminhados e recebidos pelos nós de rede em função do tempo), o throughput (taxa de transferência medida em um nó da rede ou trecho da rede para determinar se há um gargalo ou estrangulamento no tráfego) e o tempo de resposta (intervalo de tempo entre o encaminhamento de uma solicitação de usuário e o recebimento da resposta).
+* Gerenciamento de desempenho: busca a melhor eficiência os equipamentos e da rede como um todo, e trabalha e, conjunto com o gerenciamento de falhas. Trata-se do monitoramento e controle da rede com base em critérios quantitativos e qualitativos que analisa constantemente a capacidade (determinada pelos equipamentos e meios de transmissão), o tráfego na rede (representa a quantidade de bits ou bytes que são encaminhados e recebidos pelos nós de rede em função do tempo), o throughput (taxa de transferência medida em um nó da rede ou trecho da rede para determinar se há um gargalo ou estrangulamento no tráfego) e o tempo de resposta (intervalo de tempo entre o encaminhamento de uma solicitação de usuário e o recebimento da resposta).
 
-· Gerenciamento de segurança: é o processo que concentra as atividades de controle de acesso à rede e aos elementos da rede. É o responsável pela aplicação da política de segurança – especialmente no que diz respeito a tráfego e acesso, e depende de todos os demais processos para fazer a aplicação, o monitoramento e o controle de uso e acesso aos recursos da rede;
+* Gerenciamento de segurança: é o processo que concentra as atividades de controle de acesso à rede e aos elementos da rede. É o responsável pela aplicação da política de segurança – especialmente no que diz respeito a tráfego e acesso, e depende de todos os demais processos para fazer a aplicação, o monitoramento e o controle de uso e acesso aos recursos da rede;
 
-· Gerenciamento de contabilização: providencia a quantificação de acessos e o uso dos recursos da rede, conhecida como Tarifação. Esta medição é necessária para efeitos de desempenho e segurança, e tem como principais objetivos evitar o monopólio de recursos escassos ou críticos da rede – como o link de internet, por exemplo - e promover o uso da forma mais eficiente possível. Além disso a contabilização provê informações para os administradores planejarem a expansão e a atualização da rede em função da demanda e do desempenho. É comum também haver o fornecimento de informações da tarifação para fins de Auditoria.
+* Gerenciamento de contabilização: providencia a quantificação de acessos e o uso dos recursos da rede, conhecida como Tarifação. Esta medição é necessária para efeitos de desempenho e segurança, e tem como principais objetivos evitar o monopólio de recursos escassos ou críticos da rede – como o link de internet, por exemplo - e promover o uso da forma mais eficiente possível. Além disso a contabilização provê informações para os administradores planejarem a expansão e a atualização da rede em função da demanda e do desempenho. É comum também haver o fornecimento de informações da tarifação para fins de Auditoria.
 
 ## SNMP – Simple Network Management Protocol
 
@@ -581,6 +581,6 @@ O protocolo simples para gerenciamento de redes é um Framework para gerenciamen
 
 O SNMP geralmente é implementado em uma ferramenta mais abrangente que cuida da criação e atualização de estatísticas e de sua apresentação, geralmente em formato gráfico. Além disso o SNMP conta com dois protocolos auxiliares:
 
-· SMI – Structure of Management Information, ou estrutura de informações de gerenciamento: é o protocolo que define as regras de atribuição de nomes, estabelece tipos de objetos e mostra como codificar os objetos e valores. Porém não define o número de objetos, não lhes dá nomes e tampouco atua na associação entre os objetos e seus valores.
+* SMI – Structure of Management Information, ou estrutura de informações de gerenciamento: é o protocolo que define as regras de atribuição de nomes, estabelece tipos de objetos e mostra como codificar os objetos e valores. Porém não define o número de objetos, não lhes dá nomes e tampouco atua na associação entre os objetos e seus valores.
 
-· MIB – Management Information Base, ou base de informações de gerenciamento: é o protocolo que cuida da criação de um conjunto de objetos, nomes, tipos e relações entre si para um equipamento gerenciável da rede, formando um banco de dados para o equipamento. Estas informações serão solicitadas pelo SNMP e, em função delas, determinadas ações poderão ser comandas ao agente.
+* MIB – Management Information Base, ou base de informações de gerenciamento: é o protocolo que cuida da criação de um conjunto de objetos, nomes, tipos e relações entre si para um equipamento gerenciável da rede, formando um banco de dados para o equipamento. Estas informações serão solicitadas pelo SNMP e, em função delas, determinadas ações poderão ser comandas ao agente.
