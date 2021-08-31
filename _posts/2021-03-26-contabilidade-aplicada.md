@@ -7,7 +7,7 @@ tags: [management]
 toc: true
 ---
 
-# 1. Contabilidade e seus conceitos
+## 1. Contabilidade e seus conceitos
 
 Contabilidade é a ciência que se ocupa do registro, por meio de técnicas próprias, dos atos e fatos da administração das entidades econômico-financeiras, que possam ser expressos monetariamente, possibilitando o controle, o estudo e a interpretação das variações do patrimônio da empresa, bem como fornecendo informações a todos os usuários interessados.
 
@@ -31,7 +31,7 @@ Empresários e Sociedade
 
 Sociedades simples ou empresárias; em nome coletivo, em comandita simples, limitadas, anônimas ou companhia, em comandita por ações, cooperativa.
 
-# 2. Patrimônio
+## 2. Patrimônio
 
 Objeto de estudo da contabilidade - conjunto de bens, direitos e obrigações de uma pessoa física ou jurídica, sendo sempre suscetíveis de avaliação monetária, ou seja, sempre poderão ser transformados em moeda corrente.
 
@@ -86,7 +86,7 @@ Situação patrimonial nula: ativo é igual ao passível exigível.
 
 Origem e aplicação dos recursos: o passivo representa a origem de recursos; o ativo representa a aplicação de recursos.
 
-# 3. Contas
+## 3. Contas
 
 Conta é o nome técnico dado aos elementos patrimoniais (bens, direitos, obrigações e patrimônio líquido) e aos elementos de resultado (despesas e receitas). Contas patrimonial e de resultado.
 
@@ -146,7 +146,7 @@ Quadro auxiliar de lançamento:
 | Despesas | Aumenta o saldo | Diminui o saldo |
 | Receita | Diminui o saldo | Aumenta o saldo |
 
-# 4. Contabilização
+## 4. Contabilização
 
 Atos administrativos: Ocorrências que não provocam alterações no patrimônio da empresa.
 
@@ -180,7 +180,7 @@ Regimes contábeis: Caixa (despesas ou receitas efetivamente pagas) e competênc
 
 Contabilização dos ajustes
 
-# 5. Operações com mercadorias
+## 5. Operações com mercadorias
 
 No lançamento da venda de mercadorias não existe movimentação da conta Mercadorias, isso se deve à necessidade de se apurar o custo, e a margem de lucro.
 
@@ -198,7 +198,7 @@ CMV = El + C + CA - DC - EF, em que: CMV — custo das mercadorias vendidas El �
 
 Sistema permanente de controle de estoques: primeiro que entra, primeiro que sai (PEPS); último que entra, primeiro que sai (UEPS); média ponderada móvel (MPM).
 
-# 6. Demonstrações contábeis
+## 6. Demonstrações contábeis
 
 Tipos de demonstrações contábeis: Balanço patrimonial (mais importante, representa a situação econômica e financeira da empresa), demonstração do resultado do exercício (DRE), demonstração de lucros ou prejuízos acumulados (DLPA), demonstração dos fluxos de caixa (DFC - atividades operacionais, de financiamentos e de investimentos), demonstração do valor adicionado (DVA), notas explicativas (Nes).
 
