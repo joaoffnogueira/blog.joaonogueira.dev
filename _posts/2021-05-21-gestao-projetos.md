@@ -7,7 +7,7 @@ tags: [management]
 toc: true
 ---
 
-​## 1. O processo de planejamento
+## 1. O processo de planejamento
 
 Projeto, independentemente do fim que busca atender, é o conjunto de ações coordenadas por racionalidade e metodologia específica, visando atingir a concretização de um anseio, de uma ideia ou de algum objeto material, com o maior êxito e satisfação possível.
 
