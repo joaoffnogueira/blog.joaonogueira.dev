@@ -7,7 +7,7 @@ tags: [management]
 toc: true
 ---
 
-​## Evolução histórica
+## Evolução histórica
 
 A propriedade surge junto com o indivíduo, portanto trata-se de um fenômeno social diretamente ligado ao fenômeno jurídico, já que o Direito, sendo um controle social, tem papel fundamental para manter a harmonia entre os indivíduos.
 
