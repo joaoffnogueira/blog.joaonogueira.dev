@@ -77,12 +77,15 @@ graph BT
 ## Modelo Entidade e Relacionamento
 
 Uma entidade é o objeto básico representado no modelo ER.
+
    ![Entidade](/posts/2021-07-02-1.png){: width="100" height="100" }
 
 Os atributos descrevem as características de uma entidade.
+
    ![Atributos](/posts/2021-07-02-2.png){: width="100" height="100" }
 
 O relacionamento estabelece uma relação ou associação entre as entidades, com um significado específico do mundo real.
+
    ![Relacionamento](/posts/2021-07-02-3.png){: width="100" height="100" }
 
 | Cardinalidade | Descrição                                                    |
@@ -512,9 +515,9 @@ Pontos negativos:
 Um comando que pode ser utilizado em stored procedures, functions e triggers é o DELIMITER. Ele é utilizado para trocar o caractere de finalização. O mysql tem como delimitador o ; (ponto e vírgula), ou seja, o mysql entende que ali o comando está encerrado e não há necessidade de continuidade.
 
 ```sql
-CREATE PROCEDURE nome_procedure (parametros)
+CREATE PROCEDURE nome_procedure (parametros)
 	declaracoes;
-CALL nome_procedure (parametros);
+CALL nome_procedure (parametros);
 DROP PROCEDURE nome_procedure;
 ```
 
@@ -533,11 +536,11 @@ Os procedimentos armazenados não precisam ser escritos em SQL; eles podem ser e
 As funções são muito semelhantes aos procedimentos, o que os difere, do ponto de vista estrutural, é a inclusão da cláusula RETURN. Nas funções, existe a obrigatoriedade de um retorno à rotina chamadora, que é feito por meio da cláusula RETURN.
 
 ```sql
-CREATE FUNCTION nome_funcao (parametros)
+CREATE FUNCTION nome_funcao (parametros)
 RETURNS tipo_dados
 codigo_da_funcao
 RETURN retorno
-SELECT nome_funcao (parametros)
+SELECT nome_funcao (parametros)
 DROP FUNCTION nome_funcao;
 ```
 
@@ -560,13 +563,13 @@ Pontos negativos:
 * Requer maior conhecimento de manipulação do banco de dados (SQL) para realizar as operações internamente.
 
 ```sql
-CREATE TRIGGER nome AFTER/BEFORE INSERT/UPDATE/DELETE 
+CREATE TRIGGER nome AFTER/BEFORE INSERT/UPDATE/DELETE 
 	ON tabela 
-	FOR EACH ROW 
+	FOR EACH ROW 
 	BEGIN 
 	Instruções SQL 
 	END
-DROP TRIGGER nome;
+DROP TRIGGER nome;
 ```
 
 * Não se pode chamar diretamente um TRIGGER com CALL, como se faz com um stored procedures;
@@ -593,11 +596,11 @@ As palavras NEW e OLD são utilizadas para acessar os registros antes ou depois 
 
 ```sql
 IF <condicao> THEN 
- comandos sql caso verdadeiro 
+ comandos sql caso verdadeiro 
  ELSE 
- comandos sql caso falso 
+ comandos sql caso falso 
 END IF
 WHILE <condicao> DO 
- comandos sql caso verdadeiro 
+ comandos sql caso verdadeiro 
 END WHILE
 ```
