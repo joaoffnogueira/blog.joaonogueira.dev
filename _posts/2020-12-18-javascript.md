@@ -51,11 +51,11 @@ Curryng e Imutabilidade
 **Dentro do HTML**
 
 ```html
-<script                                                                      
+<script>                                                                      
 	function nomeDaFuncao (parametros) {codigo}
-</script                                                                     
-<script language="javascript" src=""</script                          
-<img src="" onmousemove="nomeDaFuncao" onmouseout="" onclick=""</img
+</script>                                                                     
+<script> language="javascript" src=""</script>                          
+<img src="" onmousemove="nomeDaFuncao" onmouseout="" onclick=""></img>
 ```
 
 ## Comandos iniciais
@@ -76,57 +76,57 @@ Curryng e Imutabilidade
 
 ## Atributos e funções internas
 
-+------------------------------------------------------------------------------------------------------------------+
-| ** **.length: tamanho da string                                                                                  |
-|                                                                                                                  |
-| .toUpperCase(): string em letras maiúsculas                                                                      |
-|                                                                                                                  |
-| .toLowerCase(): string em letras minúsculas                                                                      |
-|                                                                                                                  |
-| .toFixed(numero de casas).replace('.',','): para definir quantas casas decimais, e trocar ponto por vírgula. |
-|                                                                                                                  |
-| .toLocaleString('pt-br' , {style: 'currency', currency: 'BRL'}) //para exibir na forma monetária           |
-|                                                                                                                  |
-| .includes(""):verificação de string, resultado bool                                                            |
-|                                                                                                                  |
-| .indexOf('busca', posicaoInicial): mapeamento da string para retornar busca                                    |
-|                                                                                                                  |
-| .lastIndexOf() busca reversa, começando do fim                                                                   |
-|                                                                                                                  |
-| .substring(,): retornar uma parte da string                                                                      |
-|                                                                                                                  |
-| .replace(,)                                                                                                      |
-|                                                                                                                  |
-| .slice(,) para criar um novo array, valor final não incluso                                                      |
-|                                                                                                                  |
-| .push() inclui um novo elemento no final do array                                                                |
-|                                                                                                                  |
-| .pop() remove o ultimo item do array                                                                             |
-|                                                                                                                  |
-| .sort() ordenar elementos                                                                                        |
-|                                                                                                                  |
-| .filter()                                                                                                        |
-|                                                                                                                  |
-| .forEach()                                                                                                       |
-|                                                                                                                  |
-| .getHour()                                                                                                       |
-|                                                                                                                  |
-| .getFullYear()                                                                                                   |
-|                                                                                                                  |
-| .innerHTML para editar o html                                                                                    |
-|                                                                                                                  |
-| .innerText para editar texto simples na página                                                                   |
-|                                                                                                                  |
-| .createElement                                                                                                   |
-|                                                                                                                  |
-| .appendChild() adicionar elemento filho                                                                          |
-|                                                                                                                  |
-| .focus()                                                                                                         |
-|                                                                                                                  |
-| .disabled = true//false                                                                                          |
-|                                                                                                                  |
-| new Date()                                                                                                       |
-+------------------------------------------------------------------------------------------------------------------+
+```javascript
+.length: tamanho da string                                                                   
+                                                                                      
+ .toUpperCase(): string em letras maiúsculas                                                                      
+                                                                                                                  
+ .toLowerCase(): string em letras minúsculas                                                                      
+                                                                                                                  
+ .toFixed(numero de casas).replace('.',','): para definir quantas casas decimais, e trocar ponto por vírgula. 
+                                                                                                                  
+ .toLocaleString('pt-br' , {style: 'currency', currency: 'BRL'}) //para exibir na forma monetária           
+                                                                                                                  
+ .includes(""):verificação de string, resultado bool                                                            
+                                                                                                                  
+ .indexOf('busca', posicaoInicial): mapeamento da string para retornar busca                                    
+                                                                                                                  
+ .lastIndexOf() busca reversa, começando do fim                                                                   
+                                                                                                                  
+ .substring(,): retornar uma parte da string                                                                      
+                                                                                                                  
+ .replace(,)                                                                                                      
+                                                                                                                  
+ .slice(,) para criar um novo array, valor final não incluso                                                      
+                                                                                                                  
+ .push() inclui um novo elemento no final do array                                                                
+                                                                                                                  
+ .pop() remove o ultimo item do array                                                                             
+                                                                                                                  
+ .sort() ordenar elementos                                                                                        
+                                                                                                                  
+ .filter()                                                                                                        
+                                                                                                                  
+ .forEach()                                                                                                       
+                                                                                                                  
+ .getHour()                                                                                                       
+                                                                                                                  
+ .getFullYear()                                                                                                   
+                                                                                                                  
+ .innerHTML para editar o html                                                                                    
+                                                                                                                  
+ .innerText para editar texto simples na página                                                                   
+                                                                                                                  
+ .createElement                                                                                                   
+                                                                                                                  
+ .appendChild() adicionar elemento filho                                                                          
+                                                                                                                  
+ .focus()                                                                                                         
+                                                                                                                  
+ .disabled = true//false                                                                                          
+                                                                                                                  
+ new Date()                                                                                                       
+```
 
 Tanto as propriedades .value, .textContent, e .innerHTML servem para definir um novo valor ou recuperar o valor atual.
 
@@ -262,14 +262,7 @@ break interrompe repetição
 
 continue interrompe a execução atual da repetição mas permite a continuação do laço
 
- 
-
- 
-
 Funções e exceções
-
-
- 
 
 **Criando funções**
 
@@ -307,23 +300,19 @@ Funções que se auto invocam, para não poluirmos o escopo global desnecessaria
 
 **Função construtora de objetos personalizados**
 
-+----------------------------+--------------------------------------------------------------------------------------------------------------------+
-| function Construtora() {   | funções construtoras com nomes em letra maiúscula, por convenção. Atributos criados com var são locais e privados. |
-|                            |                                                                                                                    |
-| var atributoPrivado        |                                                                                                                    |
-|                            |                                                                                                                    |
-| this.atributo = 1;         |                                                                                                                    |
-|                            |                                                                                                                    |
-| this.metodo = function(){} |                                                                                                                    |
-|                            |                                                                                                                    |
-| }                          |                                                                                                                    |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------+
-
- 
+```javascript
+ function Construtora() {    //funções construtoras com nomes em letra maiúscula, por convenção. Atributos criados com var são locais e privados. 
+                                                                                                                                                
+ var atributoPrivado                                                                                                                            
+                                                                                                                                                
+ this.atributo = 1;                                                                                                                             
+                                                                                                                                                
+ this.metodo = function(){}                                                                                                                     
+                                                                                                                                                
+ }                                                                                                                                              
+```
 
 para criar os objetos sempre use o **new** Construtora(), para evitar problemas de referência com o this.
-
- 
 
 **Tratando exceções**
 
@@ -367,15 +356,15 @@ Métodos de acesso:
 
 Algumas propriedades podem ser acessadas e modificadas usando o DOM 0 e DOM 2
 
-+-----------------------------------------------+
-| $elemento.id //0                             |
-|                                               |
-| $elemento.maxLength = 10 //0                 |
-|                                               |
-| $elemento.getAttribute('readonly') //2     |
-|                                               |
-| $elemento.setAttribute('id', 'myId') //2 |
-+-----------------------------------------------+
+```javascript
+ $elemento.id //0                             
+                                               
+ $elemento.maxLength = 10 //0                 
+                                               
+ $elemento.getAttribute('readonly') //2     
+                                               
+ $elemento.setAttribute('id', 'myId') //2 
+```
 
  
 
@@ -506,33 +495,33 @@ Propagação de eventos: capacidade dos eventos de percorrerem a estrutura do HT
 
 Objeto Event: objeto passado por parâmetro para a função que foi atrelada, nos fornecendo várias informações adicionais sobre o evento em si. Este objeto varia de acordo com o tipo de evento.
 
-+---------------------------------------------------------------------+
-| document.addEventListener('click', function (objetoEvento){       |
-|                                                                     |
-| console.log(objetoEvento);                                          |
-|                                                                     |
-| console.log(objetoEvento.currentTarget);                            |
-|                                                                     |
-| console.log(objetoEvento.target);                                   |
-|                                                                     |
-| objetoEvento.stopPropagation(); //interrompe a propagação do evento |
-|                                                                     |
-| })                                                                  |
-+---------------------------------------------------------------------+
+```javascript
+ document.addEventListener('click', function (objetoEvento){       
+                                                                     
+ console.log(objetoEvento);                                          
+                                                                     
+ console.log(objetoEvento.currentTarget);                            
+                                                                     
+ console.log(objetoEvento.target);                                   
+                                                                     
+ objetoEvento.stopPropagation(); //interrompe a propagação do evento 
+                                                                     
+ })                                                                  
+```
 
 Delegação: técnica que consiste em atrelar o evento a um elemento mais alto e verificar qual foi o elemento clicado.
 
-+------------------------------------------------------------------------+
-| ul.addEventListener('click', function (objetoEvento){                |
-|                                                                        |
-| console.log(objetoEvento.target); //retorna qual li foi clicada        |
-|                                                                        |
-| console.log(objetoEvento.target.nodeName) //retorna o tipo do elemento |
-|                                                                        |
-| objetoEvento.stopPropagation(); //interrompe a propagação do evento    |
-|                                                                        |
-| })                                                                     |
-+------------------------------------------------------------------------+
+```javascript
+ ul.addEventListener('click', function (objetoEvento){                
+                                                                        
+ console.log(objetoEvento.target); //retorna qual li foi clicada        
+                                                                        
+ console.log(objetoEvento.target.nodeName) //retorna o tipo do elemento 
+                                                                        
+ objetoEvento.stopPropagation(); //interrompe a propagação do evento    
+                                                                        
+ })                                                                     
+```
 
 **Variáveis compostas**
 Vetores e arrays
@@ -550,29 +539,29 @@ Literais var meuTexto = "Olá Mundo!";
 Objetos var meuTexto = new String("Olá Mundo!");
 Métodos e Propriedades:
 
-+------------------------------------------------------------------------------------+
-| .length //tamanho da string                                                        |
-|                                                                                    |
-| .toUpperCase() //string em letras maiúsculas                                       |
-|                                                                                    |
-| .toLowerCase() //string em letras minúsculas                                       |
-|                                                                                    |
-| .replace('.',',') //para substituir caracteres                                 |
-|                                                                                    |
-| .includes("") //verificação de string, resultado bool                            |
-|                                                                                    |
-| .indexOf('busca', posicaoInicial) //mapeamento da string para retornar busca     |
-|                                                                                    |
-| .lastIndexOf() //busca reversa, começando do fim                                   |
-|                                                                                    |
-| .substring(,) //retornar uma parte da string                                       |
-|                                                                                    |
-| .slice(,) //para criar um novo array, valor final não incluso - posições ordenadas |
-|                                                                                    |
-| .split() //retorna um array separando as partes da string original                 |
-|                                                                                    |
-| .valueOf() //retorna o valor primitivo                                             |
-+------------------------------------------------------------------------------------+
+```javascript
+ .length //tamanho da string                                                        
+                                                                                    
+ .toUpperCase() //string em letras maiúsculas                                       
+                                                                                    
+ .toLowerCase() //string em letras minúsculas                                       
+                                                                                    
+ .replace('.',',') //para substituir caracteres                                 
+                                                                                    
+ .includes("") //verificação de string, resultado bool                            
+                                                                                    
+ .indexOf('busca', posicaoInicial) //mapeamento da string para retornar busca     
+                                                                                    
+ .lastIndexOf() //busca reversa, começando do fim                                   
+                                                                                    
+ .substring(,) //retornar uma parte da string                                       
+                                                                                    
+ .slice(,) //para criar um novo array, valor final não incluso - posições ordenadas 
+                                                                                    
+ .split() //retorna um array separando as partes da string original                 
+                                                                                    
+ .valueOf() //retorna o valor primitivo                                             
+```
 
 ## Number
 
