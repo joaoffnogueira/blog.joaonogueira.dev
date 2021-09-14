@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Contabilidade aplicada
 author: João F. F. Nogueira
-date: 2021-03-26 08:00:00 -0300
+date: 2020-05-01 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true

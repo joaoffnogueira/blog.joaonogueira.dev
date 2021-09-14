@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Sistemas de Informação Gerencial
 author: João F. F. Nogueira
-date: 2021-02-12 08:00:00 -0300
+date: 2020-03-20 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true
