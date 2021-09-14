@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Git/GitHub no Eclipse
 author: João F. F. Nogueira
-date: 2020-11-27 09:00:00 -0300
+date: 2020-01-03 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [git, java]
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Fundamentos de Sistemas de Informação
 author: João F. F. Nogueira
-date: 2021-01-01 08:00:00 -0300
+date: 2020-01-31 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true

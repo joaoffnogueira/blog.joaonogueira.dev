@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Javascript
 author: João F. F. Nogueira
-date: 2020-12-18 09:00:00 -0300
+date: 2020-01-24 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [javascript, web]
 toc: true

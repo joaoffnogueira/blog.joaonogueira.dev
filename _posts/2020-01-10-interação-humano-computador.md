@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Interação Humano-Computador
 author: João F. F. Nogueira
-date: 2020-12-04 09:00:00 -0300
+date: 2020-01-10 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [design]
 toc: true

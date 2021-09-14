@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Inteligência Artificial Aplicada
 author: João F. F. Nogueira
-date: 2021-01-15 08:00:00 -0300
+date: 2020-02-14 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [ai]
 toc: true
