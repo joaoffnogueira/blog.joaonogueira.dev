@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Banco de Dados
 author: João F. F. Nogueira
-date: 2021-07-02 08:00:00 -0300
+date: 2020-08-07 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [data]
 toc: true

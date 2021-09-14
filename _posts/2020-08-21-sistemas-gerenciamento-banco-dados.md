@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Sistemas de Gerenciamento de Banco de Dados
 author: João F. F. Nogueira
-date: 2021-07-16 08:00:00 -0300
+date: 2020-08-21 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [data]
 toc: true

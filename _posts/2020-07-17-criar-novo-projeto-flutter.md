@@ -1,7 +1,7 @@
 ---
 title: Criar novo projeto Flutter não está aparecendo no assistente do Android Studio
 author: João F. F. Nogueira
-date: 2021-06-11 11:15:00 -0300
+date: 2020-07-17 11:15:00 -0300
 categories: [Português, Solução de problemas]
 tags: [android, flutter]
 toc: false
