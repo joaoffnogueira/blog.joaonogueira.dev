@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Legislação e Propriedade Intelectual
 author: João F. F. Nogueira
-date: 2021-05-28 08:00:00 -0300
+date: 2020-07-03 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true

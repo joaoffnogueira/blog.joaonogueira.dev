@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Gestão de Projetos
 author: João F. F. Nogueira
-date: 2021-05-21 08:00:00 -0300
+date: 2020-06-26 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true

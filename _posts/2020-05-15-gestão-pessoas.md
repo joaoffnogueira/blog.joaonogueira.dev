@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Gestão de pessoas
 author: João F. F. Nogueira
-date: 2021-04-09 08:00:00 -0300
+date: 2020-05-15 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [management]
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Algoritmos
 author: João F. F. Nogueira
-date: 2021-04-30 08:00:00 -0300
+date: 2020-06-05 08:00:00 -0300
 categories: [Português, Estudos]
 tags: [logic]
 toc: true
