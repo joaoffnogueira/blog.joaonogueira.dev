@@ -1,7 +1,7 @@
 ---
 title: Impedindo que uma barra de navegação fixa role sobre o conteúdo quando você clica em links internos
 author: João F. F. Nogueira
-date: 2021-08-06 11:15:00 -0300
+date: 2020-09-11 11:15:00 -0300
 categories: [Português, Solução de problemas]
 tags: [web, css]
 toc: false

@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Git - GitHub
 author: João F. F. Nogueira
-date: 2021-08-27 09:00:00 -0300
+date: 2020-10-02 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [git]
 toc: true

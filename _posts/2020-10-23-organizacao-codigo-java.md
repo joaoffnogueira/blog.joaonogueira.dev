@@ -1,7 +1,7 @@
 ---
 title: Organização do código Java
 author: João F. F. Nogueira
-date: 2021-09-17 09:00:00 -0300
+date: 2020-10-23 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [java]
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre primeiros estudos em Java
 author: João F. F. Nogueira
-date: 2021-09-10 09:00:00 -0300
+date: 2020-10-16 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [java]
 toc: true

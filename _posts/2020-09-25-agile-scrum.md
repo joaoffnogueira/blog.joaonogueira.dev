@@ -1,7 +1,7 @@
 ---
 title: Anotações sobre Agile - Scrum
 author: João F. F. Nogueira
-date: 2021-08-20 11:15:00 -0300
+date: 2020-09-25 11:15:00 -0300
 categories: [Português, Estudos]
 tags: [agile, scrum]
 toc: true

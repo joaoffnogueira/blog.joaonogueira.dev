@@ -1,7 +1,7 @@
 ---
 title: Preventing a fixed navbar scroll over the content when you click on an internal-anchor link
 author: João F. F. Nogueira
-date: 2021-08-06 11:14:00 -0300
+date: 2020-09-11 11:14:00 -0300
 categories: [English, Troubleshoot]
 tags: [web, css]
 toc: false
