@@ -12,9 +12,7 @@ mermaid: true
 
 # Processos e Threads
 
-.
-
-	![Processos e Threads](/posts/2020-11-13-1.png){: width="100" height="100" }
+![Processos e Threads](/posts/2020-11-13-1.png){: width="100" height="100" }
 
 ## Threads
 
