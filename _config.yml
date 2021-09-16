@@ -17,10 +17,10 @@ timezone: America/Sao_Paulo
 # --------------------------
 title: Blog - João F. F. Nogueira                          # the main title
 
-tagline: Mobile developer - Java, Kotlin and Flutter   # it will display as the sub-title
+tagline: Java, Kotlin and Flutter developer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Mobile developer blog - Java, Kotlin and Flutter
+  Java, Kotlin and Flutter developer blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.joaoffnogueira.dev/'
