@@ -43,9 +43,9 @@ Funcionamento do Maven:
 
 ```xml
 <project>
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>br.com.softblue</groupId>
-	<artifactId>exampleproj</artifactId>
+	<modelVersion>1.0.0</modelVersion>
+	<groupId>dev.joaonogueira</groupId>
+	<artifactId>example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 </project>
 ```
@@ -84,9 +84,9 @@ Funcionamento do Maven:
 
 ```xml
 <project>
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>br.com.softblue</groupId>
-	<artifactId>exampleproj</artifactId>
+	<modelVersion>1.0.0</modelVersion>
+	<groupId>dev.joaonogueira</groupId>
+	<artifactId>example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
