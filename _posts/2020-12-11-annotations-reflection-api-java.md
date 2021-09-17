@@ -18,7 +18,7 @@ toc: true
 * Não influenciam diretamente na execução do código
 
 ```java
-@ClassInfo(autor = "Carlos Tosin", data = "01/01/2010")
+@ClassInfo(autor = "João Nogueira", data = "11/12/2020")
 public class MyClass {
 	...
 }
@@ -37,7 +37,7 @@ public @interface Autor {
 	String value();
 }
 
-@Autor("Carlos Tosin")
+@Autor("João Nogueira")
 public class MyClass() {
 	...
 }
@@ -171,7 +171,7 @@ MyClass m = (MyClass) c.getDeclaredConstructor().newInstance();
 * Outro uso comum da Reflection API é para invocar métodos
 
 ```java
-Class c = Class.forName("br.com.softblue.MyClass");
+Class c = Class.forName("dev.joaonogueira.MyClass");
 MyClass o = (MyClass) c.getDeclaredConstructor().newInstance();
 
 Method m = c.getMethod("imprimir", String.class);//Procura o método imprimir() da classe, que recebe uma String como parâmetro
