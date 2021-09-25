@@ -19,7 +19,7 @@ toc: true
 
 ```xml
 <Clientes>
-  <Cliente id="1">
+  <Cliente id="1">;
     <Nome>João da Silva</Nome>
     <Email>joao@email.com</Email>
   </Cliente>
