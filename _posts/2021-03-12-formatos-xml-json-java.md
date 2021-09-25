@@ -179,7 +179,7 @@ Cliente c = gson.fromJson(jsonStr, Cliente.class);//Converte para objeto
 
 – Subclasses
 
-* `JsonObject`, J`sonArray`, `JsonPrimitive` e `JsonNull`
+* `JsonObject`, `JsonArray`, `JsonPrimitive` e `JsonNull`
 
 ```java
 JsonObject obj = new JsonObject();
