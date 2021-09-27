@@ -5,55 +5,54 @@ date: 2021-03-19 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [java]
 toc: true
-mermaid: true
 ---
 
 > Baseado nos cursos da Softblue
 
 # Internacionalização
 
-• É o processo de criar uma aplicação de forma que ela consiga se adaptar a várias línguas e regiões de forma automática
+* É o processo de criar uma aplicação de forma que ela consiga se adaptar a várias línguas e regiões de forma automática
 
-• O termo abreviado é `i18n`
+* O termo abreviado é `i18n`
 
-• O que pode ser internacionalizado?
+* O que pode ser internacionalizado?
 
 – Textos
 
-• "File" vs "Arquivo"
+* "File" vs "Arquivo"
 
 – Números
 
-• "1,540.32" vs "1.540,32"
+* "1,540.32" vs "1.540,32"
 
 – Moedas
 
-• "$ 230.15" vs "R$ 230,15"
+* "$ 230.15" vs "R$ 230,15"
 
 – Datas
 
-• "12/22/2030" vs "22/12/2030"
+* "12/22/2030" vs "22/12/2030"
 
 ![Locale](/posts/2021-03-19-1.png){: width="100" height="100" }
 
 # Locale
 
-• Um objeto `Locale` identifica uma combinação de língua e região (país)
+* Um objeto `Locale` identifica uma combinação de língua e região (país)
 
-• Construtores de Locale
+* Construtores de Locale
 
 ```java
 Locale loc = new Locale("pt");
 Locale loc = new Locale("pt", "BR");
 ```
 
-• Método forLanguageTag() (Java 7+)
+* Método forLanguageTag() (Java 7+)
 
 ```java
 Locale loc = Locale.forLanguageTag("pt-BR");
 ```
 
-• Constantes pré-definidas
+* Constantes pré-definidas
 
 ```java
 Locale loc = Locale.UK;
@@ -62,11 +61,11 @@ Locale loc = Locale.JAPAN;
 
 ## Locale padrão
 
-• Toda aplicação Java tem um Locale padrão
+* Toda aplicação Java tem um Locale padrão
 
-• Ele é determinado pela JVM a partir de configurações definidas no sistema operacional
+* Ele é determinado pela JVM a partir de configurações definidas no sistema operacional
 
-• É possível obter o Locale padrão via programação
+* É possível obter o Locale padrão via programação
 
 ```java
 Locale loc = Locale.getDefault();
@@ -74,23 +73,23 @@ Locale loc = Locale.getDefault();
 
 # A classe ResourceBundle
 
-• Armazenam informações que podem variar de acordo com o Locale estabelecido
+* Armazenam informações que podem variar de acordo com o Locale estabelecido
 
-• As informações são baseadas em pares de chave e valor
+* As informações são baseadas em pares de chave e valor
 
-• Dados podem ser armazenados de duas formas
+* Dados podem ser armazenados de duas formas
 
 – Arquivo de propriedades
 
-• Chave do tipo String
+* Chave do tipo String
 
-• Valor do tipo String
+* Valor do tipo String
 
 – Classe
 
-• Chave do tipo String
+* Chave do tipo String
 
-• Valor do tipo Object
+* Valor do tipo Object
 
 ## Arquivos de propriedades
 
@@ -144,20 +143,20 @@ public class Application_pt_BR extends ListResourceBundle {
 
 # Lendo os dados
 
-• Criar um `Locale`
+* Criar um `Locale`
 
 ```java
 Locale l = new Locale("pt", "BR");
 ```
 
-• Obter uma instância de `ResourceBundle`
+* Obter uma instância de `ResourceBundle`
 
 ```java
 ResourceBundle bundle = ResourceBundle.getBundle("Application", l);
 ResourceBundle bundle = ResourceBundle.getBundle("Application");
 ```
 
-• Ler os dados a partir das chaves
+* Ler os dados a partir das chaves
 
 ```java
 String s = bundle.getString("i1");
@@ -166,9 +165,9 @@ String s = (String) bundle.getObject("i1");
 
 # Ordem de pesquisa
 
-• Um ResourceBundle precisa definir de onde ele carregará as informações
+* Um ResourceBundle precisa definir de onde ele carregará as informações
 
-• Exemplo
+* Exemplo
 
 – Bundle name = Application
 
@@ -200,7 +199,7 @@ Application
 
 # Mensagens compostas
 
-• Mensagens às vezes precisam ser compostas por partes fixas e variáveis
+* Mensagens às vezes precisam ser compostas por partes fixas e variáveis
 
 Português: Fui ao shopping e comprei 2 camisas. Custou R$ 200,00.
 
@@ -219,14 +218,14 @@ msg = I went to the mall and bought {0,number} {1}. It cost {2,number,currency}.
 i = shirts
 ```
 
-• Criar o Locale e o ResourceBundle
+* Criar o Locale e o ResourceBundle
 
 ```java
 Locale loc = new Locale("pt", "BR");
 ResourceBundle bundle = ResourceBundle.getBundle("Application", loc);
 ```
 
-• Criar o array de parâmetros
+* Criar o array de parâmetros
 
 ```java
 Object[] msgArgs = {
@@ -236,7 +235,7 @@ Object[] msgArgs = {
 };
 ```
 
-• Gerar a mensagem final
+* Gerar a mensagem final
 
 ```java
 String msgTemplate = bundle.getString("msg");
@@ -247,7 +246,7 @@ String msg = formatter.format(msgArgs);
 
 # Formatação de números
 
-• Diferentes localizações representam números e moedas de formas diferentes
+* Diferentes localizações representam números e moedas de formas diferentes
 
 ```java
 NumberFormat nf = NumberFormat.getNumberInstance(new Locale("pt", "BR"));
@@ -259,7 +258,7 @@ nf.format(1540.36);//1,540.36
 
 # Formatação de moedas
 
-• As moedas também variam de acordo com a localização
+* As moedas também variam de acordo com a localização
 
 ```java
 NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
@@ -271,7 +270,7 @@ nf.format(1540.36);//$1,540.36
 
 # Formatação de datas
 
-• Datas são representadas de formas diferentes em diferentes localizações
+* Datas são representadas de formas diferentes em diferentes localizações
 
 ```java
 DateFormat df = DateFormat.getDateInstance(DateFormat.LONG, new Locale("pt", "BR"));
@@ -282,7 +281,7 @@ df.format(new Date());//September 22, 2030
 
 # Formatação de horas
 
-• Horas também são representadas de formas diferentes em diferentes localizações
+* Horas também são representadas de formas diferentes em diferentes localizações
 
 ```java
 DateFormat df = DateFormat.getTimeInstance(DateFormat.MEDIUM,new Locale("pt", "BR"));
