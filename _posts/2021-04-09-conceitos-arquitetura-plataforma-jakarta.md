@@ -104,3 +104,5 @@ graph TD
       B --- G[fa:fa-folder-open lib] --- H[fa:fa-file-alt *.jar]
     end
 ```
+
+Servidor Java EE gratuito - WildFly
