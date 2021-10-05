@@ -379,5 +379,5 @@ graph LR
 
 ```mermaid
 graph LR
-  A((JPA)) -->|Usa o nome JNDI| B{{Data Source}} -->|Informações de conexão| C[(Banco de Dados)]
+  A((JPA)) -->|Usa o nome JNDI| B[Data Source] -->|Informações de conexão| C[(Banco de Dados)]
 ```
