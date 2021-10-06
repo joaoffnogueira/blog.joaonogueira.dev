@@ -1,5 +1,5 @@
 ---
-title: Arquitetura & Entidades da JPA - Jakarta EE
+title: Relacionamentos na JPA - Jakarta EE
 author: João F. F. Nogueira
 date: 2021-07-09 09:00:00 -0300
 categories: [Português, Estudos]
