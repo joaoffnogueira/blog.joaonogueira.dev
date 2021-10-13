@@ -15,15 +15,15 @@ toc: true
 
 • Possui algumas tags para algumas configurações simples, porém importantes
 
-– <welcome-file-list>
+– `<welcome-file-list>`
 
-– <session-config>
+– `<session-config>`
 
-– <error-page>
+– `<error-page>`
 
-– <context-param>
+– `<context-param>`
 
-## <welcome-file-list>
+## `<welcome-file-list>`
 
 • Definir arquivos padrão que serão carregados caso o usuário acesse a aplicação pelo navegador diretamente no context-root
 
@@ -44,7 +44,7 @@ http://localhost:8080/curso //Vai retornar um erro 404 do HTTP
 http://localhost:8080/curso //Vai retornar um welcome-file
 ```
 
-## <session-config>
+## `<session-config>`
 
 • Permite definir um tempo de expiração para a sessão de um usuário
 
@@ -56,7 +56,7 @@ http://localhost:8080/curso //Vai retornar um welcome-file
 </web-app>
 ```
 
-## <error-page>
+## `<error-page>`
 
 • Permite direcionar a requisição para uma página customizada de erro
 
@@ -80,7 +80,7 @@ http://localhost:8080/curso //Vai retornar um welcome-file
 </web-app>
 ```
 
-## <context-param>
+## `<context-param>`
 
 • Permite definir parâmetros iniciais para a aplicação web
 
@@ -113,7 +113,7 @@ public class MyBean implements Serializable {
 
 ### Parâmetros Importantes no JSF
 
-• A tag <context-param> é usada para definir alguns parâmetros importantes do JSF
+• A tag `<context-param>` é usada para definir alguns parâmetros importantes do JSF
 
 • Configuração de timezone
 
