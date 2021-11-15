@@ -1,7 +1,7 @@
 ---
 title: Introdução ao Hibernate
 author: João F. F. Nogueira
-date: 2021-11-09 09:00:00 -0300
+date: 2021-11-05 09:00:00 -0300
 categories: [Português, Estudos]
 tags: [java]
 toc: true
