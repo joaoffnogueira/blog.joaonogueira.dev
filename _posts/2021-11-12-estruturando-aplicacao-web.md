@@ -10,11 +10,11 @@ mermaid: true
 
 # O Modelo MVC
 
-• Model – View – Controller
+* Model – View – Controller.
 
-• Permite a divisão da aplicação em camadas lógicas
+* Permite a divisão da aplicação em camadas lógicas.
 
-• Esta divisão facilita a manutenção e extensão futura do código
+* Esta divisão facilita a manutenção e extensão futura do código.
 
 ```mermaid
 graph TD
