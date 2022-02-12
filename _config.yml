@@ -17,10 +17,9 @@ timezone: America/Sao_Paulo
 # --------------------------
 title: Blog - João F. F. Nogueira                          # the main title
 
-tagline: Java, Kotlin and Flutter developer   # it will display as the sub-title
+tagline: Mobile Developer | Android | Kotlin | Flutter   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  Java, Kotlin and Flutter developer blog
+description: João F. F. Nogueira - Portfolio - Mobile Developer | Android | Kotlin | Flutter    # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.joaonogueira.dev/'
@@ -42,7 +41,7 @@ social:
     - https://github.com/joaoffnogueira/       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/joãoffnogueira/
+    - https://www.linkedin.com/in/joaoffnogueira/
 
 google_site_verification: G-7RCXJ5XJWN # change to your verification string
 # --------------------------
