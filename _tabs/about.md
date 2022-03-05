@@ -10,12 +10,12 @@ Hi there! My name is João (something like John in English), I'm a former biolog
 
 Education:
 
-* :man_technologist:Systems Analysis and Development (2020-2021)
+* 🧑🏻‍💻 Systems Analysis and Development (2020-2021)
 
-* :computer:Software Engineering (2019)
+* 🖥️ Software Engineering (2019)
 
-* :school:Specialization in Teaching at Higher Education (2018)
+* 🏫 Specialization in Teaching at Higher Education (2018)
 
-* :mortar_board:Master degree in Environmental Education (2016-2017)
+* 🎓 Master degree in Environmental Education (2016-2017)
 
-* :leaves:Full degree in Biological Sciences (2012-2015)
+* 🍃 Full degree in Biological Sciences (2012-2015)
