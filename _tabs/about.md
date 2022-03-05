@@ -4,8 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
-# 💫About Me :
-
 Hi there! My name is João (something like John in English), I'm a former biology teacher who is now a Flutter developer with 2 Android apps published on Google Play (and a few more on the way). My current study and work is focused on Android development, but with Flutter's capabilities, I'm expanding into iOS and Windows development.
 
 ---
@@ -35,4 +33,3 @@ Education:
     <img width="390px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaoffnogueira&hide=html,scss,javascript&layout=compact&theme=midnight-purple" />
     <img width="400px" align="left" src="https://github-readme-stats.vercel.app/api?username=joaoffnogueira&theme=midnight-purple&show_icons=true"/>
 </div> 
-
