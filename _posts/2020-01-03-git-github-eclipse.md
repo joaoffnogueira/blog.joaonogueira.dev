@@ -2,12 +2,10 @@
 title: Anotações sobre Git/GitHub no Eclipse
 author: João F. F. Nogueira
 date: 2020-01-03 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [git, java]
 toc: true
 ---
-
-> Baseadas nos cursos da Softblue
 
 No Eclipse não é recomendado criar o projeto dentro do Workspace para integrar com o Git. Escolha outro diretório.
 
@@ -72,3 +70,5 @@ Elimine repositórios remotos locais do Eclipse, e trabalhe apenas com o central
 No repositório central você pode fazer push.
 
 Integrator Workflow: push bloqueado no repositório central. Desenvolvedores fazem pull request para o integrator aprovar as alterações para inclusão no repositório central.
+
+> Baseadas nos cursos da Softblue
