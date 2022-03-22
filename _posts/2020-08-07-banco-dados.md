@@ -2,8 +2,8 @@
 title: Anotações sobre Banco de Dados
 author: João F. F. Nogueira
 date: 2020-08-07 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [data]
+categories: [Estudos-faculdade]
+tags: [banco-de-dados]
 toc: true
 mermaid: true
 ---

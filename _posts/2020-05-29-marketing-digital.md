@@ -2,7 +2,7 @@
 title: Anotações sobre Marketing digital
 author: João F. F. Nogueira
 date: 2020-05-29 08:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [marketing]
 toc: true
 ---

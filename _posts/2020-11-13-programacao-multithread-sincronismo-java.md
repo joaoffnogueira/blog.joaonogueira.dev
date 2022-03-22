@@ -2,7 +2,7 @@
 title: Programação Multithread e Sincronismo em Java
 author: João F. F. Nogueira
 date: 2020-11-13 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 mermaid: true

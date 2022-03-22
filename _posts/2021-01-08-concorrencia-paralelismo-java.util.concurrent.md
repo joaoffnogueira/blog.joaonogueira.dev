@@ -2,7 +2,7 @@
 title: Concorrência e Paralelismo com java.util.concurrent
 author: João F. F. Nogueira
 date: 2021-01-08 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 mermaid: true

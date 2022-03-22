@@ -2,7 +2,7 @@
 title: Desenvolvendo com o uso do Maven em Java
 author: João F. F. Nogueira
 date: 2020-11-27 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 ---

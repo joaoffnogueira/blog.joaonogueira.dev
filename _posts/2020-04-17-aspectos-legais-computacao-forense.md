@@ -2,8 +2,8 @@
 title: Anotações sobre Aspectos legais da computação forense
 author: João F. F. Nogueira
 date: 2020-04-17 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [management]
+categories: [Estudos-faculdade]
+tags: [gestão, segurança]
 toc: true
 ---
 

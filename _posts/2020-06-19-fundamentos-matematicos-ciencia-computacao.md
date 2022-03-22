@@ -2,8 +2,8 @@
 title: Anotações sobre Fundamentos Matemáticos para a Ciência da Computação
 author: João F. F. Nogueira
 date: 2020-06-19 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [math]
+categories: [Estudos-faculdade]
+tags: [matemática]
 toc: true
 math: true
 ---

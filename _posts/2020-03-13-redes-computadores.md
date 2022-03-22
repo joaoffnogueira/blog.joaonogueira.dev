@@ -2,8 +2,8 @@
 title: Anotações sobre Redes de Computadores
 author: João F. F. Nogueira
 date: 2020-03-13 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [network]
+categories: [Estudos-faculdade]
+tags: [redes]
 toc: true
 ---
 

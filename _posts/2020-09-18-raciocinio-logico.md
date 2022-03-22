@@ -2,8 +2,8 @@
 title: Anotações sobre Raciocínio lógico e lógica quantitativa
 author: João F. F. Nogueira
 date: 2020-09-18 11:15:00 -0300
-categories: [Português, Estudos]
-tags: [logic]
+categories: [Estudos-faculdade]
+tags: [lógica]
 toc: true
 math: true
 ---
@@ -304,3 +304,4 @@ Dizemos que duas ou mais proposições são inconsistentes quando elas não pode
 ## Capítulo 10 - Circuitos lógicos
 
    ![Circuitos lógicos](/posts/2021-08-13.png){: width="400" height="702" }
+   

@@ -2,7 +2,7 @@
 title: JavaFX - Conceitos e Fundamentos no Java
 author: João F. F. Nogueira
 date: 2021-02-26 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 ---

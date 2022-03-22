@@ -2,8 +2,8 @@
 title: Tipos de firewalls e suas facilidades
 author: João F. F. Nogueira
 date: 2020-02-28 09:00:00 -0300
-categories: [Português, Estudos]
-tags: [security]
+categories: [Estudos-faculdade]
+tags: [segurança]
 toc: true
 ---
 

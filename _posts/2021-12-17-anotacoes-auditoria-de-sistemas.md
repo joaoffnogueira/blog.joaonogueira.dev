@@ -2,8 +2,8 @@
 title: Anotações sobre Auditoria de Sistemas
 author: João F. F. Nogueira
 date: 2021-12-17 11:14:00 -0300
-categories: [Português, Estudos]
-tags: [management]
+categories: [Estudos-faculdade]
+tags: [gestão, segurança]
 toc: true
 ---
 

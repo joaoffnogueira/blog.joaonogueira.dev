@@ -2,7 +2,7 @@
 title: Navegação Entre Telas - Jakarta EE
 author: João F. F. Nogueira
 date: 2021-04-23 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 mermaid: true

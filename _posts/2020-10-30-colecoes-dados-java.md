@@ -2,8 +2,8 @@
 title: Coleções de dados em Java
 author: João F. F. Nogueira
 date: 2020-10-30 09:00:00 -0300
-categories: [Português, Estudos]
-tags: [data, java]
+categories: [Estudos-faculdade]
+tags: [dados, java]
 toc: true
 ---
 

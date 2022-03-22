@@ -2,8 +2,8 @@
 title: Programação em Rede com Sockets TCP/IP e UDP/IP
 author: João F. F. Nogueira
 date: 2021-01-15 09:00:00 -0300
-categories: [Português, Estudos]
-tags: [web]
+categories: [Estudos-faculdade]
+tags: [redes, web]
 toc: true
 mermaid: true
 ---

@@ -2,8 +2,8 @@
 title: Anotações sobre Comunicação Empresarial
 author: João F. F. Nogueira
 date: 2020-04-24 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [management]
+categories: [Estudos-faculdade]
+tags: [gestão]
 toc: true
 ---
 

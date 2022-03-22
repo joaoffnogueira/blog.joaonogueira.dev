@@ -2,7 +2,7 @@
 title: Acessando Bancos de Dados com JDBC no Java
 author: João F. F. Nogueira
 date: 2021-02-19 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 mermaid: true

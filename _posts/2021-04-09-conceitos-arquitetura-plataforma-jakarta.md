@@ -2,7 +2,7 @@
 title: Conceitos e arquitetura da plataforma Jakarta EE
 author: João F. F. Nogueira
 date: 2021-04-09 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 mermaid: true

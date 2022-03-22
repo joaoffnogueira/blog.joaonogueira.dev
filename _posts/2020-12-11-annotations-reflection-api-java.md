@@ -2,7 +2,7 @@
 title: Annotations e a Reflection API no Java
 author: João F. F. Nogueira
 date: 2020-12-11 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 ---

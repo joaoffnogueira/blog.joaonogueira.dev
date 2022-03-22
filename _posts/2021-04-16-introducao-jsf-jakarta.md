@@ -2,7 +2,7 @@
 title: Introdução ao JSF no Jakarta EE
 author: João F. F. Nogueira
 date: 2021-04-16 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 mermaid: true

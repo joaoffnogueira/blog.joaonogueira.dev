@@ -2,8 +2,8 @@
 title: Anotações sobre Estruturas de Dados
 author: João F. F. Nogueira
 date: 2020-02-07 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [data]
+categories: [Estudos-faculdade]
+tags: [dados]
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 title: Java Server Pages
 author: João F. F. Nogueira
 date: 2021-10-08 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java, web]
 toc: true
 ---

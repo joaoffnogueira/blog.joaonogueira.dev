@@ -2,7 +2,7 @@
 title: JavaFX - Tópicos Avançados no Java
 author: João F. F. Nogueira
 date: 2021-03-05 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 mermaid: true

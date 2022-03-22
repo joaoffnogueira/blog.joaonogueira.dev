@@ -2,8 +2,8 @@
 title: Anotações sobre Sistemas Operacionais
 author: João F. F. Nogueira
 date: 2020-03-27 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [os]
+categories: [Estudos-faculdade]
+tags: [so]
 toc: true
 mermaid: true
 ---

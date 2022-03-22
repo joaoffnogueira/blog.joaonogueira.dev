@@ -2,7 +2,7 @@
 title: Anotações sobre Fundamentos de Arquitetura de Sistemas WEB
 author: João F. F. Nogueira
 date: 2020-04-03 08:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [web]
 toc: true
 mermaid: true

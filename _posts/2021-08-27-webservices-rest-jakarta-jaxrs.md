@@ -2,7 +2,7 @@
 title: WebServices REST em Jakarta EE usando JAX-RS
 author: João F. F. Nogueira
 date: 2021-08-27 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 ---

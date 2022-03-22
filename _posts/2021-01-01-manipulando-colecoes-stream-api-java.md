@@ -2,7 +2,7 @@
 title: Manipulando Coleções com a Stream API em Java
 author: João F. F. Nogueira
 date: 2021-01-01 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [java]
 toc: true
 ---

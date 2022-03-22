@@ -2,7 +2,7 @@
 title: Tabelas Dinâmicas com o Componente Data Table - Jakarta EE
 author: João F. F. Nogueira
 date: 2021-05-14 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 mermaid: true

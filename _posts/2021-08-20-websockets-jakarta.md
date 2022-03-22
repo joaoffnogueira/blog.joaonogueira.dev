@@ -2,7 +2,7 @@
 title: WebSockets em Jakarta EE
 author: João F. F. Nogueira
 date: 2021-08-20 09:00:00 -0300
-categories: [Português, Estudos]
+categories: [Estudos-faculdade]
 tags: [jakarta, java]
 toc: true
 mermaid: true

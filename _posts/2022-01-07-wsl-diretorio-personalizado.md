@@ -2,7 +2,7 @@
 title: Como instalar sua distro Linux no Windows+WSL em um disco/diretório personalizado
 author: João F. F. Nogueira
 date: 2022-01-07 08:00:00 -0300
-categories: [Português, Solução de problemas]
+categories: [Diversos]
 tags: [windows, wsl]
 toc: false
 ---

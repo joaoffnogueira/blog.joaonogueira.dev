@@ -2,8 +2,8 @@
 title: Anotações sobre Programação Orientada a Objetos
 author: João F. F. Nogueira
 date: 2020-03-06 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [java]
+categories: [Estudos-faculdade]
+tags: [java, poo]
 toc: true
 mermaid: true
 ---

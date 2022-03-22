@@ -2,8 +2,8 @@
 title: Anotações sobre Matemática Computacional
 author: João F. F. Nogueira
 date: 2020-02-21 08:00:00 -0300
-categories: [Português, Estudos]
-tags: [math]
+categories: [Estudos-faculdade]
+tags: [matemática]
 toc: true
 math: true
 mermaid: true

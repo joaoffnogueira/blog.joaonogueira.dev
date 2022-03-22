@@ -2,8 +2,8 @@
 title: Anotações sobre Recuperação de banco de dados e segurança
 author: João F. F. Nogueira
 date: 2020-01-17 09:00:00 -0300
-categories: [Português, Estudos]
-tags: [data]
+categories: [Estudos-faculdade]
+tags: [banco-de-dados, segurança]
 toc: true
 ---
 
