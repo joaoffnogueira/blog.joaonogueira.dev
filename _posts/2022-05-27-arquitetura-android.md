@@ -1,9 +1,9 @@
 ---
 title: A arquitetura Android e componentes de aplicativo
 author: João F. F. Nogueira
-date: 2021-02-05 09:00:00 -0300
-categories: [Português, Estudos]
-tags: [android]
+date: 2022-05-27 09:00:00 -0300
+categories: [Flutter, Android]
+tags: [android, arquitetura]
 toc: true
 ---
 
@@ -11,7 +11,7 @@ toc: true
 
 # A arquitetura Android
 
-![A arquitetura Android](/posts/2021-02-05-11.svg){: width="100" height="100" }
+![A arquitetura Android](/posts/2021-02-05-11.svg){: max-width="100%" height="auto" }
 
 ## Linux Kernel
 
