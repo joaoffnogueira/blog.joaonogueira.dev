@@ -1,53 +1,39 @@
 # The Site Configuration
 
-# Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
 baseurl: ''
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: pt-BR
+lang: en
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Blog - João F F Nogueira                         # the main title
+title: Blog - João F. F. Nogueira
 
-tagline: Desenvolvedor Flutter | Android | Windows | Web   # it will display as the sub-title
+tagline: Flutter Developer | Flutter Web | Flutter Mobile | Mobile Developer | Software Developer | Product Engineer
 
-description: >-                        # used by seo meta and the atom feed
-  João Fernando Ferrari Nogueira - Blog - Desenvolvedor Flutter | Android | Windows | Web
+description: >-                       
+  João F. F. Nogueira - Blog - Flutter Developer | Flutter Web | Flutter Mobile | Mobile Developer | Software Developer | Product Engineer
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.joaonogueira.dev/'
 
 github:
-  username: joaoffnogueira             # change to your github username
+  username: joaoffnogueira
 
 social:
-  # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: João F. F. Nogueira
-  email: dev.joaonogueira@gmail.com             # change to your email address
+  email: contact@joaonogueira.dev
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/joaoffnogueira       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://github.com/joaoffnogueira      
     - https://www.linkedin.com/in/joaoffnogueira/
 
-google_site_verification: G-7RCXJ5XJWN           # fill in to your verification string
-# Site Verification Settings
+google_site_verification: G-7RCXJ5XJWN           
 webmaster_verifications:
   google: G-7RCXJ5XJWN
   bing: # fill in your Bing verification code
@@ -59,8 +45,7 @@ webmaster_verifications:
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-7RCXJ5XJWN'                # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
+  id: 'G-7RCXJ5XJWN'
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
@@ -90,7 +75,7 @@ avatar: '/logo.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: '/logo.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true

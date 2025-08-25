@@ -1,21 +1,29 @@
 ---
 title: About
-icon: fas fa-info
+icon: fas fa-info-circle
 order: 4
 ---
 
-Olá! Eu me chamo João, sou um ex-professor de biologia que hoje é desenvolvedor Flutter com 2 aplicativos Android publicados na Google Play (e mais alguns a caminho). Meu estudo e trabalho atuais estão focados em desenvolvimento Android, mas com as capacidades do Flutter, estou expandindo para desenvolvimento iOS e Windows.
+Hi, I’m João Nogueira — a Flutter developer with over five years of experience building cross-platform applications that blend clean architecture, usability, and real-world impact. I specialize in mobile, web, and desktop development using Flutter, with a strong focus on automated testing, CI/CD pipelines, and scalable API integrations.
+
+Throughout my career, I’ve led technical initiatives in SaaS environments, including document management systems and industrial safety platforms used by thousands of users across national and international companies. My background in biology and environmental education taught me how to approach problems with curiosity, depth, and empathy — qualities I bring into every line of code I write.
+
+I’m passionate about continuous learning, collaborative teams, and delivering meaningful solutions. I thrive in agile squads, enjoy contributing to technical decisions, and believe in balancing engineering excellence with product value. On this blog, I share insights, experiments, and lessons learned from my journey with Flutter, software architecture, and development best practices — always with the goal of learning together and building things that matter.
 
 ---
 
-Formação:
+Education:
 
-* 🧑🏻‍💻 Análise e desenvolvimento de sistemas (2020-2021)
+👨‍💻Bachelor of Technology - BTech in Software Engineering (2024-2025)
 
-* 🖥️ Engenharia de software (2019)
+👨‍💻Postgraduate Degree in Computer Engineering (2023)
 
-* 🏫 Especialização em Docência no Ensino Superior (2018)
+👨‍💻Technician in Systems Analysis and Development (2020-2021)
 
-* 🎓 Mestrado em Educação Ambiental (2016-2017)
+💻Bachelor of Software Engineering (2019-incomplete)
 
-* 🍃 Ciências Biológicas (2012-2015)
+🏫Postgraduate Degree in Teaching at Higher Education (2018)
+
+🎓Master degree in Environmental Education (2016-2017)
+
+🍃Full degree in Biological Sciences (2012-2015)
