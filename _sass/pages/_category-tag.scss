@@ -1,6 +1,6 @@
-/*
-  Style for page Category and Tag
-*/
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/mixins' as mx;
+@use '../abstracts/placeholders';
 
 .dash {
   margin: 0 0.5rem 0.6rem 0.5rem;
@@ -13,31 +13,38 @@
     line-height: 1.5rem;
     padding: 0.6rem 0;
 
-    &::before { // dot
-      background: #999;
+    /* dot */
+    &::before {
+      background: #999999;
       width: 5px;
       height: 5px;
       border-radius: 50%;
       display: block;
-      content: "";
+      content: '';
       position: relative;
       top: 0.6rem;
       margin-right: 0.5rem;
+
+      @include bp.lt(bp.get(sm)) {
+        margin: 0 0.5rem;
+      }
     }
 
-    > a { /* post's title */
+    /* post's title */
+    > a {
       @extend %no-bottom-border;
 
       font-size: 1.1rem;
-    }
 
-    > span:last-child {
-      white-space: nowrap;
-    } /* post's date */
+      @include bp.lt(bp.get(sm)) {
+        @include mx.text-ellipsis;
+      }
+    }
   }
 }
 
-#page-tag h1 > i { // tag icon
+/* tag icon */
+#page-tag h1 > i {
   font-size: 1.2rem;
 }
 
@@ -51,23 +58,6 @@
   a:hover {
     @extend %link-hover;
 
-    margin-bottom: -1px; // Avoid jumping
-  }
-}
-
-@media all and (max-width: 576px) {
-  #page-category,
-  #page-tag {
-    ul > li {
-      &::before {
-        margin: 0 0.5rem;
-      }
-
-      > a {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-    }
+    margin-bottom: -1px; /* Avoid jumping */
   }
 }
