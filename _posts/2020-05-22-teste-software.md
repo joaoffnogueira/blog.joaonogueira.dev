@@ -143,7 +143,7 @@ Princípio de Pareto.
 
 Gráficos de Pareto para Testes: reclamações por módulo; módulos mais usados; análise de risco; falhas por módulo; defeitos por módulo (averiguados por você).
 
-Produtos cabeça (hits/populares) e cauda longa (produtos de nicho). Testes combinatoriais - Pairwise [pairwise.yuuniworks.com](http://pairwise.yuuniworks.com)
+Produtos cabeça (hits/populares) e cauda longa (produtos de nicho). Testes combinatoriais - Pairwise [pairwise.yuuniworks.com](https://pairwise.yuuniworks.com)
 
 Quadrantes de teste:
 
@@ -192,7 +192,7 @@ Tipos de aplicações web: site, web app.
 
 Responsividade; Performance; Acessibilidade; Informação para tomada de decisão.
 
-Ferramentas: Google Analytics, Crazy Egg (mapa de calor e teste A/B). [seositecheckup.com](http://seositecheckup.com)
+Ferramentas: Google Analytics, Crazy Egg (mapa de calor e teste A/B). [seositecheckup.com](https://seositecheckup.com)
 
 |  Prioridade|  Fluxo                       Cenários
 |------------|---------------------------|------------------------------------|

@@ -71,7 +71,7 @@ http://soapclient.com/xml/soapresponder.wsdl
 XSD - XML Schema Definition
 É um esquema no formato XML usado para definir a estrutura de dados que será validada no XML.
 O XSD funciona como uma documentação de como deve ser montado o SOAP Message (XML) que será enviado através de Web Service.
-[SoapUI.org](http://soapui.org) é um sistema que ajuda a visualizar e ler aquivos WSDL e XSD.
+[SoapUI.org](https://soapui.org) é um sistema que ajuda a visualizar e ler aquivos WSDL e XSD.
 
 ### Aprenda o que são REST, API e JSON
 
