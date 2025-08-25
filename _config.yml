@@ -19,7 +19,7 @@ description: >-
   João F. F. Nogueira - Blog - Flutter Developer | Flutter Web | Flutter Mobile | Mobile Developer | Software Developer | Product Engineer
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://blog.joaonogueira.dev/'
+url: 'https://blog.joaonogueira.dev'
 
 github:
   username: joaoffnogueira
